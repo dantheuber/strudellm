@@ -1,0 +1,13 @@
+{
+  "name": "strudel-tracks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Songs written as code for the Strudel live-coding REPL (strudel.cc).",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

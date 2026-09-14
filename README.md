@@ -1,0 +1,64 @@
+# strudel-tracks
+
+Songs written as code for [Strudel](https://strudel.cc), the browser live-coding music tool.
+
+## How to play a song
+
+1. Open a file in `songs/`.
+2. Copy all of it.
+3. Paste it into the editor at https://strudel.cc and press `Ctrl+Enter`. Press `Ctrl+.` to stop.
+
+## Songs
+
+| Song | File | Tempo |
+|---|---|---|
+| First Groove | [songs/first-groove.js](songs/first-groove.js) | 110 bpm |
+| Neon Rinse (drum and bass) | [songs/neon-rinse.js](songs/neon-rinse.js) | 174 bpm |
+
+## Project layout
+
+```
+songs/            one .js file per song (kebab-case names)
+songs/_template.js  starting point for a new song
+samples/          custom audio files (see samples/README.md)
+strudel.json      sample map, lets songs load this repo's samples
+tests/            checks for song files and the sample map
+```
+
+## Writing a new song
+
+1. Copy `songs/_template.js` to `songs/<song-name>.js`.
+2. Fill in the header lines. `@title`, `@by` and `@tempo` are required:
+
+   ```js
+   // @title  Song Name
+   // @by     Your Name
+   // @tempo  120 bpm
+   // @notes  Optional description
+   ```
+
+3. Add the song to the table above.
+
+## Custom samples
+
+Put audio in `samples/<sound-name>/` and list the files in `strudel.json`. Once the repo is pushed to GitHub, a song loads them with:
+
+```js
+samples('github:<github-user>/strudel-tracks')
+```
+
+See `samples/README.md` for the details.
+
+## Tests
+
+Requires Node 20+. No packages to install.
+
+```
+npm test
+```
+
+The tests check that:
+
+- every song is valid JavaScript syntax
+- every song has the required header lines and a kebab-case file name
+- `strudel.json` is valid and every file it lists exists
