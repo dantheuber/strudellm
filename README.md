@@ -14,11 +14,12 @@ Songs written as code for [Strudel](https://strudel.cc), the browser live-coding
 |---|---|---|
 | First Groove | [songs/first-groove.js](songs/first-groove.js) | 110 bpm |
 | Neon Rinse (drum and bass) | [songs/neon-rinse.js](songs/neon-rinse.js) | 174 bpm |
+| Mirage Dial (desert electro) | [songs/mirage-dial/mirage-dial.js](songs/mirage-dial/mirage-dial.js) | 112 bpm |
 
 ## Project layout
 
 ```
-songs/            one .js file per song (kebab-case names)
+songs/            one .js file per song, optionally in a same-named folder
 songs/_template.js  starting point for a new song
 samples/          custom audio files (see samples/README.md)
 strudel.json      sample map, lets songs load this repo's samples
@@ -27,7 +28,8 @@ tests/            checks for song files and the sample map
 
 ## Writing a new song
 
-1. Copy `songs/_template.js` to `songs/<song-name>.js`.
+1. Copy `songs/_template.js` to `songs/<song-name>.js`, or to
+   `songs/<song-name>/<song-name>.js` when the song needs its own folder.
 2. Fill in the header lines. `@title`, `@by` and `@tempo` are required:
 
    ```js

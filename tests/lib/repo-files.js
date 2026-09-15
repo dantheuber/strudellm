@@ -6,11 +6,13 @@ export const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..
 export const SONGS_DIR = join(REPO_ROOT, 'songs');
 export const SAMPLE_MAP_PATH = join(REPO_ROOT, 'strudel.json');
 
-// Song files are every .js file in songs/, including the template.
-export function listSongFiles() {
-  return readdirSync(SONGS_DIR)
-    .filter((name) => name.endsWith('.js'))
-    .map((name) => join(SONGS_DIR, name));
+// Song files are every .js file in songs/ and its subfolders, including the template.
+export function listSongFiles(directory = SONGS_DIR) {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const path = join(directory, entry.name);
+    if (entry.isDirectory()) return listSongFiles(path);
+    return entry.name.endsWith('.js') ? [path] : [];
+  });
 }
 
 export function readText(path) {
