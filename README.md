@@ -15,6 +15,7 @@ Songs written as code for [Strudel](https://strudel.cc), the browser live-coding
 | First Groove | [songs/first-groove.js](songs/first-groove.js) | 110 bpm |
 | Neon Rinse (drum and bass) | [songs/neon-rinse.js](songs/neon-rinse.js) | 174 bpm |
 | Mirage Dial (desert electro) | [songs/mirage-dial/mirage-dial.js](songs/mirage-dial/mirage-dial.js) | 112 bpm |
+| Faultline Protocol (drum and bass / dubstep) | [songs/faultline-protocol.js](songs/faultline-protocol.js) | 174 bpm |
 
 ## Project layout
 
