@@ -1,5 +1,5 @@
 // @title  Mirage Dial
-// @by     Codex (for Dan Essig)
+// @by     GPT 5.6 Luna - medium
 // @tempo  112 bpm
 // @notes  Desert electro at blue hour: dusty drums, warm bass, glassy arpeggios
 

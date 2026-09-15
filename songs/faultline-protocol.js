@@ -1,5 +1,5 @@
 // @title  Faultline Protocol
-// @by     Codex (for Dan Essig)
+// @by     GPT 5.6 SOL - low
 // @tempo  174 bpm
 // @notes  Evolving drum and bass / dubstep: a long pressure build, fake-out, and crunchy two-part drops
 

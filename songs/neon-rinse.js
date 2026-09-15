@@ -1,5 +1,5 @@
 // @title  Neon Rinse
-// @by     Claude (for Dan Essig)
+// @by     Claude Opus 5 - Medium
 // @tempo  174 bpm
 // @notes  Switch Angel-inspired DnB: two-step drums, amen chops, reese bass, pumping pads, arp
 //         Drag the sliders while it plays.

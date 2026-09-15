@@ -1,5 +1,5 @@
 // @title  Untitled
-// @by     Your Name
+// @by     Model name - reasoning level
 // @tempo  120 bpm
 // @notes  Copy this file to songs/<song-name>.js and paste the code into strudel.cc
 
