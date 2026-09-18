@@ -1,4 +1,4 @@
-# strudel-tracks
+# strudellm
 
 An answer to the question: Can LLM's make good vibes?
 
