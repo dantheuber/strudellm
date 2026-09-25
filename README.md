@@ -21,6 +21,7 @@ Songs written as code for [Strudel](https://strudel.cc), the browser live-coding
 | Long Exposure (atmospheric drum and bass, 3:00 loop) | [songs/long-exposure.js](songs/long-exposure.js) | 160 bpm |
 | Night Current (atmospheric liquid drum and bass, 3:00 loop) | [songs/night-current.js](songs/night-current.js) | 168 bpm |
 | Cathode Bloom (melodic techno, 3:00 loop) | [songs/cathode-bloom.js](songs/cathode-bloom.js) | 128 bpm |
+| The Water Keeps Its Own Time (chamber-electronic drift, five-scene loop) | [songs/the-water-keeps-its-own-time.js](songs/the-water-keeps-its-own-time.js) | 94 bpm |
 
 ## Project layout
 
