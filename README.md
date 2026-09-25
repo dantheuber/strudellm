@@ -1,73 +1,34 @@
 # strudellm
 
-An answer to the question: Can LLM's make good vibes?
+A library of original tracks written by different language models for [Strudel](https://strudel.cc), the browser live coding music tool. Each new model receives the same [song prompt](SONG_PROMPT.md) and creates its own track.
 
-Songs written as code for [Strudel](https://strudel.cc), the browser live-coding music tool.
+## New tracks
 
-## How to play a song
+New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without any of the existing song files as examples. The prompt sets a minimum duration of three minutes and leaves the music to the model.
 
-1. Open a file in `songs/`.
-2. Copy all of it.
-3. Paste it into the editor at https://strudel.cc and press `Ctrl+Enter`. Press `Ctrl+.` to stop.
+| Track | Model |
+|---|---|
+| _No standardized tracks yet_ | — |
 
-## Songs
+When adding a track, replace the placeholder row or add a row linking to its song file and naming the model that created it. If the model name is uncertain, mark it `To confirm` until the maintainer supplies the correct credit.
 
-| Song | File | Tempo |
-|---|---|---|
-| Neon Rinse (drum and bass) | [songs/neon-rinse.js](songs/neon-rinse.js) | 174 bpm |
-| Mirage Dial (desert electro) | [songs/mirage-dial/mirage-dial.js](songs/mirage-dial/mirage-dial.js) | 112 bpm |
-| Faultline Protocol (drum and bass / dubstep) | [songs/faultline-protocol.js](songs/faultline-protocol.js) | 174 bpm |
-| Glass Circuit (melodic drum and bass, 2:34 loop) | [songs/glass-circuit.js](songs/glass-circuit.js) | 174 bpm |
-| Long Exposure (atmospheric drum and bass, 3:00 loop) | [songs/long-exposure.js](songs/long-exposure.js) | 160 bpm |
-| Night Current (atmospheric liquid drum and bass, 3:00 loop) | [songs/night-current.js](songs/night-current.js) | 168 bpm |
-| Cathode Bloom (melodic techno, 3:00 loop) | [songs/cathode-bloom.js](songs/cathode-bloom.js) | 128 bpm |
-| The Water Keeps Its Own Time (chamber-electronic drift, five-scene loop) | [songs/the-water-keeps-its-own-time.js](songs/the-water-keeps-its-own-time.js) | 94 bpm |
+The eight earlier tracks are preserved in [`archive/pre-standardized/`](archive/pre-standardized/). They predate the shared prompt and are not references for new tracks.
 
-## Project layout
+## Play a track
+
+Open a `.js` song file, copy its contents into the editor at https://strudel.cc, and press `Ctrl+Enter`. Press `Ctrl+.` to stop.
+
+## Repository layout
 
 ```
-songs/            one .js file per song, optionally in a same-named folder
-songs/_template.js  starting point for a new song
-samples/          custom audio files (see samples/README.md)
-strudel.json      sample map, lets songs load this repo's samples
-tests/            checks for song files and the sample map
+SONG_PROMPT.md            shared prompt for each new model
+songs/                    tracks created with the shared prompt
+archive/pre-standardized/ earlier tracks, preserved as they were
+samples/                  optional custom audio files (see samples/README.md)
+strudel.json              sample map for this repository
+tests/                    JavaScript syntax and sample map checks
 ```
-
-## Writing a new song
-
-1. Copy `songs/_template.js` to `songs/<song-name>.js`, or to
-   `songs/<song-name>/<song-name>.js` when the song needs its own folder.
-2. Fill in the header lines. `@title`, `@by` and `@tempo` are required:
-
-   ```js
-   // @title  Song Name
-   // @by     Your Name
-   // @tempo  120 bpm
-   // @notes  Optional description
-   ```
-
-3. Add the song to the table above.
-
-## Custom samples
-
-Put audio in `samples/<sound-name>/` and list the files in `strudel.json`. Once the repo is pushed to GitHub, a song loads them with:
-
-```js
-samples('github:<github-user>/strudel-tracks')
-```
-
-See `samples/README.md` for the details.
 
 ## Tests
 
-Requires Node 20+. No packages to install.
-
-```
-npm test
-```
-
-The tests check that:
-
-- every song is valid JavaScript syntax
-- every song has the required header lines and a kebab-case file name
-- `strudel.json` is valid and every file it lists exists
+Requires Node 20+. No packages to install. Run `npm test` to check song syntax and that files listed in `strudel.json` exist. The tests do not establish a song's playback duration; that needs to be checked by playing it.
