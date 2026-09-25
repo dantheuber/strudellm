@@ -4,9 +4,10 @@ import { fileURLToPath } from 'node:url';
 
 export const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 export const SONGS_DIR = join(REPO_ROOT, 'songs');
+export const ARCHIVE_DIR = join(REPO_ROOT, 'archive', 'pre-standardized');
 export const SAMPLE_MAP_PATH = join(REPO_ROOT, 'strudel.json');
 
-// Song files are every .js file in songs/ and its subfolders, including the template.
+// Song files are every .js file in a song directory and its subfolders.
 export function listSongFiles(directory = SONGS_DIR) {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
     const path = join(directory, entry.name);
@@ -17,18 +18,4 @@ export function listSongFiles(directory = SONGS_DIR) {
 
 export function readText(path) {
   return readFileSync(path, 'utf8');
-}
-
-// Reads "// @key value" lines from the top comment block of a song.
-export function parseSongHeader(source) {
-  const header = {};
-  for (const line of source.split(/\r?\n/)) {
-    const match = line.match(/^\/\/\s*@(\w+)\s+(.*)$/);
-    if (match) {
-      header[match[1]] = match[2].trim();
-    } else if (!line.startsWith('//')) {
-      break;
-    }
-  }
-  return header;
 }
