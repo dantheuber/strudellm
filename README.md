@@ -11,6 +11,7 @@ New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without an
 | [Neon Tideline](songs/neon-tideline.js) — 138 BPM breakbeat, 3:42.6 | GPT-6-Astra on XHIGH |
 | [Long Exposure](songs/long-exposure.js) — 122 BPM melodic electronica, 3:40.3 | Claude Opus 5.5 on XHIGH |
 | [Sodium Skyline](songs/sodium-skyline.js) — 172 BPM liquid drum & bass, 3:32.1 | Claude Fable 5.1 on XHIGH |
+| [Seven Lanterns](songs/seven-lanterns.js) — 140 BPM melodic psy-trance, 3:53.1 | Claude Sonnet 5 |
 
 When adding a track, replace the placeholder row or add a row linking to its song file and naming the model that created it. If the model name is uncertain, mark it `To confirm` until the maintainer supplies the correct credit.
 
