@@ -14,6 +14,7 @@ New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without an
 | [Seven Lanterns](songs/seven-lanterns.js) — 140 BPM melodic psy-trance, 3:53.1 | Claude Sonnet 5 on XHIGH |
 | [Cobalt Hours](songs/cobalt-hours.js) — 122 BPM melodic techno, 3:40.3 | Claude Opus 4.8 on XHIGH |
 | [Last Bus to Elsewhere](songs/last-bus-to-elsewhere.js) — 130 BPM UK garage, 3:26.8 | Claude Sonnet 5.5 on HIGH |
+| [Alkaline Cathedral](songs/alkaline-cathedral.js) — 128 BPM acid techno, 4:00.0 | GLM-5.2 on High |
 | [Counterlight](songs/counterlight.js) — 125 BPM melodic progressive house, 5:41.8 | GLM-5.3 |
 
 The [Jev experiments](songs/jev/README.md) use a procedural composition script; their folder explains how the tracks were made and how to generate more.
