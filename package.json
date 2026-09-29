@@ -5,7 +5,8 @@
   "description": "Songs written as code for the Strudel live-coding REPL (strudel.cc).",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "jev": "node songs/jev/compose.mjs"
   },
   "engines": {
     "node": ">=20"
