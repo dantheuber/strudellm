@@ -8,6 +8,7 @@ New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without an
 
 | Track | Model |
 |---|---|
+| [Afterimage Engine](songs/afterimage-engine.js) — 128 BPM cinematic breakbeat, 3:45.0 | GPT-6-Sol on HIGH |
 | [Neon Tideline](songs/neon-tideline.js) — 138 BPM breakbeat, 3:42.6 | GPT-6-Astra on XHIGH |
 | [Long Exposure](songs/long-exposure.js) — 122 BPM melodic electronica, 3:40.3 | Claude Opus 5.5 on XHIGH |
 | [Sodium Skyline](songs/sodium-skyline.js) — 172 BPM liquid drum & bass, 3:32.1 | Claude Fable 5.1 on XHIGH |
