@@ -8,7 +8,7 @@ New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without an
 
 | Track | Model | Notes |
 |---|---|---|
-| [Hourglass Motel](songs/hourglass-motel.js) — 92 BPM trip-hop noir, 3:33.9 | Claude Fable 5 | |
+| [Hourglass Motel](songs/hourglass-motel.js) — 92 BPM trip-hop noir, 3:33.9 | Claude Fable 5 on XHIGH | |
 | [Afterimage Engine](songs/afterimage-engine.js) — 128 BPM cinematic breakbeat, 3:45.0 | GPT-6-Sol on HIGH | |
 | [Neon Tideline](songs/neon-tideline.js) — 138 BPM breakbeat, 3:42.6 | GPT-6-Astra on XHIGH | |
 | [Rearview Aurora](songs/rearview-aurora.js) — 112 BPM synthwave anthem, 4:08.6 | Claude Opus 5.5 on XHIGH | Prompt augmented by telling it to "impress me" |
