@@ -6,17 +6,18 @@ A library of original tracks written by different language models for [Strudel](
 
 New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without any of the existing song files as examples. The prompt sets a minimum duration of three minutes and leaves the music to the model.
 
-| Track | Model |
-|---|---|
-| [Afterimage Engine](songs/afterimage-engine.js) — 128 BPM cinematic breakbeat, 3:45.0 | GPT-6-Sol on HIGH |
-| [Neon Tideline](songs/neon-tideline.js) — 138 BPM breakbeat, 3:42.6 | GPT-6-Astra on XHIGH |
-| [Long Exposure](songs/long-exposure.js) — 122 BPM melodic electronica, 3:40.3 | Claude Opus 5.5 on XHIGH |
-| [Sodium Skyline](songs/sodium-skyline.js) — 172 BPM liquid drum & bass, 3:32.1 | Claude Fable 5.1 on XHIGH |
-| [Seven Lanterns](songs/seven-lanterns.js) — 140 BPM melodic psy-trance, 3:53.1 | Claude Sonnet 5 on XHIGH |
-| [Cobalt Hours](songs/cobalt-hours.js) — 122 BPM melodic techno, 3:40.3 | Claude Opus 4.8 on XHIGH |
-| [Last Bus to Elsewhere](songs/last-bus-to-elsewhere.js) — 130 BPM UK garage, 3:26.8 | Claude Sonnet 5.5 on HIGH |
-| [Alkaline Cathedral](songs/alkaline-cathedral.js) — 128 BPM acid techno, 4:00.0 | GLM-5.2 on High |
-| [Counterlight](songs/counterlight.js) — 125 BPM melodic progressive house, 5:41.8 | GLM-5.3 |
+| Track | Model | Notes |
+|---|---|---|
+| [Afterimage Engine](songs/afterimage-engine.js) — 128 BPM cinematic breakbeat, 3:45.0 | GPT-6-Sol on HIGH | |
+| [Neon Tideline](songs/neon-tideline.js) — 138 BPM breakbeat, 3:42.6 | GPT-6-Astra on XHIGH | |
+| [Rearview Aurora](songs/rearview-aurora.js) — 112 BPM synthwave anthem, 4:08.6 | Claude Opus 5.5 on XHIGH | Prompt augmented by telling it to "impress me" |
+| [Long Exposure](songs/long-exposure.js) — 122 BPM melodic electronica, 3:40.3 | Claude Opus 5.5 on XHIGH | |
+| [Sodium Skyline](songs/sodium-skyline.js) — 172 BPM liquid drum & bass, 3:32.1 | Claude Fable 5.1 on XHIGH | |
+| [Seven Lanterns](songs/seven-lanterns.js) — 140 BPM melodic psy-trance, 3:53.1 | Claude Sonnet 5 on XHIGH | |
+| [Cobalt Hours](songs/cobalt-hours.js) — 122 BPM melodic techno, 3:40.3 | Claude Opus 4.8 on XHIGH | |
+| [Last Bus to Elsewhere](songs/last-bus-to-elsewhere.js) — 130 BPM UK garage, 3:26.8 | Claude Sonnet 5.5 on HIGH | |
+| [Alkaline Cathedral](songs/alkaline-cathedral.js) — 128 BPM acid techno, 4:00.0 | GLM-5.2 on High | |
+| [Counterlight](songs/counterlight.js) — 125 BPM melodic progressive house, 5:41.8 | GLM-5.3 on High | Took literally 2 hours.. |
 
 The [Jev experiments](songs/jev/README.md) use a procedural composition script; their folder explains how the tracks were made and how to generate more.
 
