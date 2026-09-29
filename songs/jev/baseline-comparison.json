@@ -1,0 +1,317 @@
+{
+  "seed": "first-experiment",
+  "runs": 3,
+  "probes": 2,
+  "dryRun": false,
+  "songHashes": [
+    "ffa4af8eb738c18e527d6e17f2070719fa6b52e4f9659965af9c317dca831608",
+    "2646cc0ac3b2e1414c90c742ff415dde14702fcbf4a33951cf56f6f283bb67f3",
+    "2646cc0ac3b2e1414c90c742ff415dde14702fcbf4a33951cf56f6f283bb67f3"
+  ],
+  "stages": [
+    {
+      "stage": "style",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o12",
+        "o12",
+        "o12"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "mode",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o03",
+        "o03",
+        "o03"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "tonic",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o03",
+        "o03",
+        "o03"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "harmony",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o01",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "drums",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o01",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "hats",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o01",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "bass",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o04",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": true,
+      "probeDisagreements": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "lead",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o01",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "variation",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o01",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "counter",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o25",
+        "o05",
+        "o05"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": true,
+      "probeDisagreements": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "stage": "instruments",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o22",
+        "o22",
+        "o22"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "stage": "effects",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o03",
+        "o03",
+        "o03"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "stage": "section: intro",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o09",
+        "o09",
+        "o09"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "stage": "section: foundation",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o09",
+        "o09",
+        "o09"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: first hook",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o10",
+        "o10",
+        "o10"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: break",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o09",
+        "o09",
+        "o09"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "stage": "section: rebuild",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o11",
+        "o11",
+        "o11"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: climax",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o11",
+        "o11",
+        "o11"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: outro",
+      "identicalInputsAcrossRuns": true,
+      "selections": [
+        "o09",
+        "o09",
+        "o09"
+      ],
+      "changedSelection": false,
+      "sameInputDifferentSelection": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

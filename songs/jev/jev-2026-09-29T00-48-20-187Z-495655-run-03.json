@@ -1,0 +1,3535 @@
+{
+  "seed": "38d5c005f00068e5",
+  "variation": "both",
+  "runNumber": 3,
+  "creativeBrief": {
+    "rhythmicImpulse": "slowly accumulating",
+    "harmonicColor": "tense and unresolved",
+    "foreground": "a hypnotic arpeggio",
+    "dramaticArc": "several waves of energy"
+  },
+  "requestedModel": "jev-latest",
+  "resolvedModel": "jev-1.13.0",
+  "dryRun": false,
+  "promptHash": "dcd361d27ccf876beb690efde5aa38638559482ffbfd6de609597a9ca5cafc41",
+  "songHash": "a27b6e22aa1665f61579d331f63530c0e1c4531e8cfc6e73a50c2f9c4d1f417a",
+  "decisions": [
+    {
+      "stage": "style",
+      "requestHash": "ecba3aec6b7d4aba79852adca350216357b61420c967a77ea40ba3bb7d1b1aa7",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          }
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose the most compelling overall musical direction for this original track.",
+            "criteria": {
+              "o01": "glassy electronica, 96 BPM; clear melodic lines and spacious synths",
+              "o02": "glassy electronica, 108 BPM; clear melodic lines and spacious synths",
+              "o03": "glassy electronica, 120 BPM; clear melodic lines and spacious synths",
+              "o04": "glassy electronica, 136 BPM; clear melodic lines and spacious synths",
+              "o05": "nighttime breakbeat, 96 BPM; uneven drums and a restless bass pulse",
+              "o06": "nighttime breakbeat, 108 BPM; uneven drums and a restless bass pulse",
+              "o07": "nighttime breakbeat, 120 BPM; uneven drums and a restless bass pulse",
+              "o08": "nighttime breakbeat, 136 BPM; uneven drums and a restless bass pulse",
+              "o09": "hypnotic dance, 96 BPM; repeating motifs with gradual changes in intensity",
+              "o10": "hypnotic dance, 108 BPM; repeating motifs with gradual changes in intensity",
+              "o11": "hypnotic dance, 120 BPM; repeating motifs with gradual changes in intensity",
+              "o12": "hypnotic dance, 136 BPM; repeating motifs with gradual changes in intensity",
+              "o13": "cinematic downtempo, 96 BPM; wide harmony and deliberate rhythmic space",
+              "o14": "cinematic downtempo, 108 BPM; wide harmony and deliberate rhythmic space",
+              "o15": "cinematic downtempo, 120 BPM; wide harmony and deliberate rhythmic space",
+              "o16": "cinematic downtempo, 136 BPM; wide harmony and deliberate rhythmic space"
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o09",
+          "confidence": 0.2,
+          "probabilities": {
+            "o15": 0.01,
+            "o11": 0.17,
+            "o10": 0.23,
+            "o06": 0.01,
+            "o05": 0.01,
+            "o07": 0.01,
+            "o02": 0,
+            "o01": 0.01,
+            "o03": 0.01,
+            "o12": 0.15,
+            "o04": 0,
+            "o16": 0,
+            "o09": 0.26,
+            "o14": 0.05,
+            "o08": 0,
+            "o13": 0.08
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1190,
+            "output_tokens": 163
+          }
+        },
+        {
+          "choice": "o09",
+          "confidence": 0.18,
+          "probabilities": {
+            "o15": 0.01,
+            "o11": 0.19,
+            "o10": 0.21,
+            "o06": 0.01,
+            "o05": 0.01,
+            "o07": 0.01,
+            "o02": 0,
+            "o01": 0.01,
+            "o03": 0.01,
+            "o12": 0.16,
+            "o09": 0.24000000000000002,
+            "o16": 0,
+            "o04": 0,
+            "o14": 0.05,
+            "o08": 0,
+            "o13": 0.09
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1190,
+            "output_tokens": 163
+          }
+        }
+      ],
+      "jevTopChoice": "o09",
+      "selected": "o09",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.08764405571855605,
+      "selectedProbability": 0.26
+    },
+    {
+      "stage": "mode",
+      "requestHash": "6c531960a1f72da567a7994a0b3ad3242020aad940c8dbd4aa4c7bbd13cf320b",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          }
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Which scale mode gives this direction a distinctive musical character?",
+            "criteria": {
+              "o01": "major scale",
+              "o02": "minor scale",
+              "o03": "dorian scale",
+              "o04": "mixolydian scale",
+              "o05": "phrygian scale"
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o05",
+          "confidence": 0.73,
+          "probabilities": {
+            "o04": 0.01,
+            "o01": 0,
+            "o02": 0.1,
+            "o05": 0.78,
+            "o03": 0.11
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 784,
+            "output_tokens": 64
+          }
+        },
+        {
+          "choice": "o05",
+          "confidence": 0.73,
+          "probabilities": {
+            "o03": 0.1,
+            "o04": 0.01,
+            "o05": 0.78,
+            "o02": 0.11,
+            "o01": 0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 784,
+            "output_tokens": 64
+          }
+        }
+      ],
+      "jevTopChoice": "o05",
+      "selected": "o05",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.7057749081868678,
+      "selectedProbability": 0.78
+    },
+    {
+      "stage": "tonic",
+      "requestHash": "f9dfa7587c8b1bb6e6c96a79e693a68fba00292fe6cf4e74f1cc307fceb8d8ef",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian"
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Which tonic pitch best suits this direction and mode?",
+            "criteria": {
+              "o01": "c as tonic",
+              "o02": "cs as tonic",
+              "o03": "d as tonic",
+              "o04": "ds as tonic",
+              "o05": "e as tonic",
+              "o06": "f as tonic",
+              "o07": "fs as tonic",
+              "o08": "g as tonic",
+              "o09": "gs as tonic",
+              "o10": "a as tonic",
+              "o11": "as as tonic",
+              "o12": "b as tonic"
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o05",
+          "confidence": 0.33,
+          "probabilities": {
+            "o01": 0.06,
+            "o09": 0.01,
+            "o02": 0.03,
+            "o04": 0.03,
+            "o07": 0.03,
+            "o08": 0.02,
+            "o03": 0.27,
+            "o11": 0.03,
+            "o10": 0.05,
+            "o06": 0.02,
+            "o12": 0.06,
+            "o05": 0.39
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 904,
+            "output_tokens": 127
+          }
+        },
+        {
+          "choice": "o03",
+          "confidence": 0.28,
+          "probabilities": {
+            "o04": 0.04,
+            "o02": 0.02,
+            "o06": 0.03,
+            "o01": 0.07,
+            "o03": 0.34,
+            "o07": 0.03,
+            "o12": 0.05,
+            "o05": 0.3,
+            "o09": 0.01,
+            "o11": 0.03,
+            "o10": 0.06,
+            "o08": 0.02
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 904,
+            "output_tokens": 127
+          }
+        }
+      ],
+      "jevTopChoice": "o05",
+      "selected": "o03",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.22910292190499604,
+      "selectedProbability": 0.26999999999999996
+    },
+    {
+      "stage": "harmony",
+      "requestHash": "5e555d9daabad29b8431d5739ba930680d9be2c2f16d1e5a01421dd1d6ac7b68",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "tonic": "d"
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose the strongest four-bar harmonic journey for this track.",
+            "criteria": {
+              "o01": "Four-bar harmony: d3 → as3 → g3 → a3; scale degrees 1–6–4–5.",
+              "o02": "Four-bar harmony: d3 → g3 → a3 → g3; scale degrees 1–4–5–4.",
+              "o03": "Four-bar harmony: d3 → a3 → as3 → g3; scale degrees 1–5–6–4.",
+              "o04": "Four-bar harmony: d3 → c4 → as3 → a3; scale degrees 1–7–6–5.",
+              "o05": "Four-bar harmony: d3 → f3 → as3 → g3; scale degrees 1–3–6–4.",
+              "o06": "Four-bar harmony: d3 → as3 → ds3 → a3; scale degrees 1–6–2–5.",
+              "o07": "Four-bar harmony: d3 → g3 → c4 → a3; scale degrees 1–4–7–5.",
+              "o08": "Four-bar harmony: d3 → ds3 → g3 → a3; scale degrees 1–2–4–5.",
+              "o09": "Four-bar harmony: d3 → a3 → g3 → a3; scale degrees 1–5–4–5.",
+              "o10": "Four-bar harmony: d3 → f3 → g3 → a3; scale degrees 1–3–4–5.",
+              "o11": "Four-bar harmony: d3 → c4 → g3 → a3; scale degrees 1–7–4–5.",
+              "o12": "Four-bar harmony: d3 → as3 → a3 → g3; scale degrees 1–6–5–4.",
+              "o13": "Four-bar harmony: as3 → g3 → d3 → a3; scale degrees 6–4–1–5.",
+              "o14": "Four-bar harmony: g3 → a3 → d3 → as3; scale degrees 4–5–1–6.",
+              "o15": "Four-bar harmony: d3 → g3 → d3 → a3; scale degrees 1–4–1–5.",
+              "o16": "Four-bar harmony: d3 → as3 → g3 → c4; scale degrees 1–6–4–7.",
+              "o17": "Four-bar harmony: d3 → ds3 → as3 → a3; scale degrees 1–2–6–5.",
+              "o18": "Four-bar harmony: d3 → c4 → ds3 → a3; scale degrees 1–7–2–5.",
+              "o19": "Four-bar harmony: d3 → f3 → c4 → a3; scale degrees 1–3–7–5.",
+              "o20": "Four-bar harmony: d3 → g3 → as3 → a3; scale degrees 1–4–6–5.",
+              "o21": "Four-bar harmony: d3 → a3 → ds3 → g3; scale degrees 1–5–2–4.",
+              "o22": "Four-bar harmony: d3 → c4 → a3 → as3; scale degrees 1–7–5–6.",
+              "o23": "Four-bar harmony: d3 → f3 → a3 → as3; scale degrees 1–3–5–6.",
+              "o24": "Four-bar harmony: d3 → as3 → c4 → a3; scale degrees 1–6–7–5."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o20",
+          "confidence": 0.06,
+          "probabilities": {
+            "o23": 0.02,
+            "o03": 0.05,
+            "o07": 0.03,
+            "o11": 0.04,
+            "o20": 0.1,
+            "o16": 0.06,
+            "o04": 0.08,
+            "o12": 0.06,
+            "o08": 0.03,
+            "o09": 0.01,
+            "o02": 0.02,
+            "o21": 0.02,
+            "o17": 0.09,
+            "o01": 0.06,
+            "o10": 0.01,
+            "o06": 0.05,
+            "o18": 0.04,
+            "o14": 0.02,
+            "o24": 0.08,
+            "o22": 0.06,
+            "o19": 0.02,
+            "o05": 0.03,
+            "o13": 0.01,
+            "o15": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1682,
+            "output_tokens": 235
+          }
+        },
+        {
+          "choice": "o20",
+          "confidence": 0.07,
+          "probabilities": {
+            "o05": 0.02,
+            "o11": 0.04,
+            "o15": 0.01,
+            "o08": 0.03,
+            "o20": 0.12,
+            "o07": 0.03,
+            "o09": 0.02,
+            "o03": 0.04,
+            "o23": 0.02,
+            "o16": 0.08,
+            "o21": 0.02,
+            "o13": 0.01,
+            "o19": 0.01,
+            "o18": 0.04,
+            "o12": 0.06,
+            "o06": 0.05,
+            "o14": 0.02,
+            "o22": 0.05,
+            "o17": 0.08,
+            "o04": 0.09,
+            "o01": 0.06,
+            "o10": 0.01,
+            "o24": 0.08,
+            "o02": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1682,
+            "output_tokens": 235
+          }
+        }
+      ],
+      "jevTopChoice": "o20",
+      "selected": "o24",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.9501049348618835,
+      "selectedProbability": 0.07999999999999999
+    },
+    {
+      "stage": "drums",
+      "requestHash": "14b12ace86c99c53d18ad339785c9b82e991495948ae1060b9012fb04f758a60",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ]
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose a beat that makes the chosen style and harmony feel alive.",
+            "criteria": {
+              "o01": "16-step beat; kick on 1, 5, 9, 13, snare on 5, 13.",
+              "o02": "16-step beat; kick on 1, 5, 9, 13, snare on 5, 12.",
+              "o03": "16-step beat; kick on 1, 5, 9, 13, snare on 9.",
+              "o04": "16-step beat; kick on 1, 5, 9, 13, snare on 5, 13, 16.",
+              "o05": "16-step beat; kick on 1, 9, snare on 5, 13.",
+              "o06": "16-step beat; kick on 1, 9, snare on 5, 12.",
+              "o07": "16-step beat; kick on 1, 9, snare on 9.",
+              "o08": "16-step beat; kick on 1, 9, snare on 5, 13, 16.",
+              "o09": "16-step beat; kick on 1, 7, 11, snare on 5, 13.",
+              "o10": "16-step beat; kick on 1, 7, 11, snare on 5, 12.",
+              "o11": "16-step beat; kick on 1, 7, 11, snare on 9.",
+              "o12": "16-step beat; kick on 1, 7, 11, snare on 5, 13, 16.",
+              "o13": "16-step beat; kick on 1, 4, 9, 12, snare on 5, 13.",
+              "o14": "16-step beat; kick on 1, 4, 9, 12, snare on 5, 12.",
+              "o15": "16-step beat; kick on 1, 4, 9, 12, snare on 9.",
+              "o16": "16-step beat; kick on 1, 4, 9, 12, snare on 5, 13, 16.",
+              "o17": "16-step beat; kick on 1, 5, 8, 11, 13, snare on 5, 13.",
+              "o18": "16-step beat; kick on 1, 5, 8, 11, 13, snare on 5, 12.",
+              "o19": "16-step beat; kick on 1, 5, 8, 11, 13, snare on 9.",
+              "o20": "16-step beat; kick on 1, 5, 8, 11, 13, snare on 5, 13, 16.",
+              "o21": "16-step beat; kick on 1, 6, 9, 15, snare on 5, 13.",
+              "o22": "16-step beat; kick on 1, 6, 9, 15, snare on 5, 12.",
+              "o23": "16-step beat; kick on 1, 6, 9, 15, snare on 9.",
+              "o24": "16-step beat; kick on 1, 6, 9, 15, snare on 5, 13, 16.",
+              "o25": "16-step beat; kick on 1, 7, 9, 12, 15, snare on 5, 13.",
+              "o26": "16-step beat; kick on 1, 7, 9, 12, 15, snare on 5, 12.",
+              "o27": "16-step beat; kick on 1, 7, 9, 12, 15, snare on 9.",
+              "o28": "16-step beat; kick on 1, 7, 9, 12, 15, snare on 5, 13, 16.",
+              "o29": "16-step beat; kick on 1, 4, 7, 11, 14, snare on 5, 13.",
+              "o30": "16-step beat; kick on 1, 4, 7, 11, 14, snare on 5, 12.",
+              "o31": "16-step beat; kick on 1, 4, 7, 11, 14, snare on 9.",
+              "o32": "16-step beat; kick on 1, 4, 7, 11, 14, snare on 5, 13, 16."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o09",
+          "confidence": 0.06,
+          "probabilities": {
+            "o06": 0.03,
+            "o26": 0.02,
+            "o05": 0.07,
+            "o08": 0.02,
+            "o24": 0.02,
+            "o19": 0.02,
+            "o04": 0.02,
+            "o25": 0.03,
+            "o17": 0.04,
+            "o03": 0.07,
+            "o18": 0.02,
+            "o16": 0.01,
+            "o27": 0.01,
+            "o28": 0.02,
+            "o11": 0.03,
+            "o10": 0.05,
+            "o22": 0.02,
+            "o12": 0.04,
+            "o20": 0.02,
+            "o32": 0.02,
+            "o15": 0.01,
+            "o23": 0.01,
+            "o30": 0.02,
+            "o29": 0.05,
+            "o21": 0.04,
+            "o01": 0.07,
+            "o31": 0.01,
+            "o14": 0.02,
+            "o09": 0.08,
+            "o02": 0.03,
+            "o07": 0.02,
+            "o13": 0.06
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 2115,
+            "output_tokens": 307
+          }
+        },
+        {
+          "choice": "o09",
+          "confidence": 0.05,
+          "probabilities": {
+            "o28": 0.02,
+            "o02": 0.03,
+            "o07": 0.01,
+            "o27": 0.01,
+            "o22": 0.02,
+            "o16": 0.01,
+            "o06": 0.03,
+            "o14": 0.02,
+            "o11": 0.02,
+            "o19": 0.02,
+            "o09": 0.09,
+            "o04": 0.02,
+            "o21": 0.04,
+            "o15": 0.01,
+            "o12": 0.04,
+            "o32": 0.02,
+            "o08": 0.02,
+            "o20": 0.02,
+            "o29": 0.04,
+            "o10": 0.04,
+            "o31": 0.01,
+            "o01": 0.07,
+            "o13": 0.06,
+            "o23": 0.01,
+            "o25": 0.04,
+            "o03": 0.07,
+            "o26": 0.02,
+            "o30": 0.02,
+            "o17": 0.04,
+            "o18": 0.03,
+            "o05": 0.08,
+            "o24": 0.02
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 2115,
+            "output_tokens": 307
+          }
+        }
+      ],
+      "jevTopChoice": "o09",
+      "selected": "o05",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.20836565317586064,
+      "selectedProbability": 0.06999999999999998
+    },
+    {
+      "stage": "hats",
+      "requestHash": "78129ddfceac14b9317c6967eb817ac17b6ea3fa4e72934240b17046451bfe14",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "drums": {
+            "kick": [
+              0,
+              8
+            ],
+            "snare": [
+              4,
+              12
+            ]
+          }
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose a hi-hat pattern that complements this kick and snare beat.",
+            "criteria": {
+              "o01": "Closed hats on steps 1, 3, 5, 7, 9, 11, 13, 15; open hats absent.",
+              "o02": "Closed hats on steps 1, 3, 5, 7, 9, 11, 13, 15; open hats on 7.",
+              "o03": "Closed hats on steps 1, 3, 5, 7, 9, 11, 13, 15; open hats on 7, 15.",
+              "o04": "Closed hats on steps 1, 5, 9, 13; open hats absent.",
+              "o05": "Closed hats on steps 1, 5, 9, 13; open hats on 7.",
+              "o06": "Closed hats on steps 1, 5, 9, 13; open hats on 7, 15.",
+              "o07": "Closed hats on steps 3, 7, 11, 15; open hats absent.",
+              "o08": "Closed hats on steps 3, 7, 11, 15; open hats on 7.",
+              "o09": "Closed hats on steps 3, 7, 11, 15; open hats on 7, 15.",
+              "o10": "Closed hats on steps 1, 3, 6, 9, 11, 14; open hats absent.",
+              "o11": "Closed hats on steps 1, 3, 6, 9, 11, 14; open hats on 7.",
+              "o12": "Closed hats on steps 1, 3, 6, 9, 11, 14; open hats on 7, 15.",
+              "o13": "Closed hats on steps 1, 4, 7, 9, 12, 15; open hats absent.",
+              "o14": "Closed hats on steps 1, 4, 7, 9, 12, 15; open hats on 7.",
+              "o15": "Closed hats on steps 1, 4, 7, 9, 12, 15; open hats on 7, 15.",
+              "o16": "Closed hats on steps 1, 3, 5, 8, 9, 11, 13, 16; open hats absent.",
+              "o17": "Closed hats on steps 1, 3, 5, 8, 9, 11, 13, 16; open hats on 7.",
+              "o18": "Closed hats on steps 1, 3, 5, 8, 9, 11, 13, 16; open hats on 7, 15.",
+              "o19": "Closed hats on steps 1, 3, 5, 7, 9, 10, 11, 13, 15; open hats absent.",
+              "o20": "Closed hats on steps 1, 3, 5, 7, 9, 10, 11, 13, 15; open hats on 7.",
+              "o21": "Closed hats on steps 1, 3, 5, 7, 9, 10, 11, 13, 15; open hats on 7, 15.",
+              "o22": "Closed hats on steps 1, 2, 3, 5, 7, 9, 11, 12, 13, 15; open hats absent.",
+              "o23": "Closed hats on steps 1, 2, 3, 5, 7, 9, 11, 12, 13, 15; open hats on 7.",
+              "o24": "Closed hats on steps 1, 2, 3, 5, 7, 9, 11, 12, 13, 15; open hats on 7, 15."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o01",
+          "confidence": 0.18,
+          "probabilities": {
+            "o07": 0.04,
+            "o04": 0.06,
+            "o19": 0.02,
+            "o11": 0.03,
+            "o08": 0.02,
+            "o24": 0.02,
+            "o14": 0.02,
+            "o03": 0.09,
+            "o02": 0.04,
+            "o10": 0.05,
+            "o23": 0.02,
+            "o09": 0.06,
+            "o22": 0.02,
+            "o13": 0.04,
+            "o16": 0.04,
+            "o12": 0.04,
+            "o21": 0.01,
+            "o15": 0.03,
+            "o05": 0.02,
+            "o06": 0.06,
+            "o17": 0.02,
+            "o20": 0.01,
+            "o18": 0.03,
+            "o01": 0.21
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1890,
+            "output_tokens": 235
+          }
+        },
+        {
+          "choice": "o01",
+          "confidence": 0.2,
+          "probabilities": {
+            "o15": 0.03,
+            "o12": 0.04,
+            "o24": 0.01,
+            "o20": 0.01,
+            "o10": 0.06,
+            "o21": 0.01,
+            "o01": 0.22999999999999998,
+            "o08": 0.02,
+            "o09": 0.05,
+            "o07": 0.04,
+            "o23": 0.02,
+            "o17": 0.02,
+            "o13": 0.04,
+            "o03": 0.08,
+            "o04": 0.04,
+            "o16": 0.05,
+            "o11": 0.03,
+            "o18": 0.03,
+            "o19": 0.02,
+            "o14": 0.02,
+            "o22": 0.03,
+            "o02": 0.04,
+            "o05": 0.03,
+            "o06": 0.05
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1890,
+            "output_tokens": 235
+          }
+        }
+      ],
+      "jevTopChoice": "o01",
+      "selected": "o10",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.6443688559811562,
+      "selectedProbability": 0.04999999999999998
+    },
+    {
+      "stage": "bass",
+      "requestHash": "4b454f30967085e5e7178f6530a2d4e515f550b6d4ab73b4fbc236d1c86d48cc",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "drums": {
+            "kick": [
+              0,
+              8
+            ],
+            "snare": [
+              4,
+              12
+            ]
+          },
+          "hats": {
+            "hits": [
+              0,
+              2,
+              5,
+              8,
+              10,
+              13
+            ],
+            "open": []
+          }
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose a bass rhythm and melodic motion that locks to the chosen beat.",
+            "criteria": {
+              "o01": "Eight-step bass rhythm at 1, 5; relative melodic moves 0, 0, 4, 0.",
+              "o02": "Eight-step bass rhythm at 1, 5; relative melodic moves 0, 4, 0, 2.",
+              "o03": "Eight-step bass rhythm at 1, 5; relative melodic moves 0, 2, 4, 2.",
+              "o04": "Eight-step bass rhythm at 1, 5; relative melodic moves 0, 0, 2, 4.",
+              "o05": "Eight-step bass rhythm at 1, 4, 7; relative melodic moves 0, 0, 4, 0.",
+              "o06": "Eight-step bass rhythm at 1, 4, 7; relative melodic moves 0, 4, 0, 2.",
+              "o07": "Eight-step bass rhythm at 1, 4, 7; relative melodic moves 0, 2, 4, 2.",
+              "o08": "Eight-step bass rhythm at 1, 4, 7; relative melodic moves 0, 0, 2, 4.",
+              "o09": "Eight-step bass rhythm at 1, 5, 8; relative melodic moves 0, 0, 4, 0.",
+              "o10": "Eight-step bass rhythm at 1, 5, 8; relative melodic moves 0, 4, 0, 2.",
+              "o11": "Eight-step bass rhythm at 1, 5, 8; relative melodic moves 0, 2, 4, 2.",
+              "o12": "Eight-step bass rhythm at 1, 5, 8; relative melodic moves 0, 0, 2, 4.",
+              "o13": "Eight-step bass rhythm at 1, 3, 6, 8; relative melodic moves 0, 0, 4, 0.",
+              "o14": "Eight-step bass rhythm at 1, 3, 6, 8; relative melodic moves 0, 4, 0, 2.",
+              "o15": "Eight-step bass rhythm at 1, 3, 6, 8; relative melodic moves 0, 2, 4, 2.",
+              "o16": "Eight-step bass rhythm at 1, 3, 6, 8; relative melodic moves 0, 0, 2, 4.",
+              "o17": "Eight-step bass rhythm at 1, 4, 6; relative melodic moves 0, 0, 4, 0.",
+              "o18": "Eight-step bass rhythm at 1, 4, 6; relative melodic moves 0, 4, 0, 2.",
+              "o19": "Eight-step bass rhythm at 1, 4, 6; relative melodic moves 0, 2, 4, 2.",
+              "o20": "Eight-step bass rhythm at 1, 4, 6; relative melodic moves 0, 0, 2, 4.",
+              "o21": "Eight-step bass rhythm at 1, 3, 5, 7; relative melodic moves 0, 0, 4, 0.",
+              "o22": "Eight-step bass rhythm at 1, 3, 5, 7; relative melodic moves 0, 4, 0, 2.",
+              "o23": "Eight-step bass rhythm at 1, 3, 5, 7; relative melodic moves 0, 2, 4, 2.",
+              "o24": "Eight-step bass rhythm at 1, 3, 5, 7; relative melodic moves 0, 0, 2, 4.",
+              "o25": "Eight-step bass rhythm at 1, 6, 8; relative melodic moves 0, 0, 4, 0.",
+              "o26": "Eight-step bass rhythm at 1, 6, 8; relative melodic moves 0, 4, 0, 2.",
+              "o27": "Eight-step bass rhythm at 1, 6, 8; relative melodic moves 0, 2, 4, 2.",
+              "o28": "Eight-step bass rhythm at 1, 6, 8; relative melodic moves 0, 0, 2, 4.",
+              "o29": "Eight-step bass rhythm at 1, 4, 5, 8; relative melodic moves 0, 0, 4, 0.",
+              "o30": "Eight-step bass rhythm at 1, 4, 5, 8; relative melodic moves 0, 4, 0, 2.",
+              "o31": "Eight-step bass rhythm at 1, 4, 5, 8; relative melodic moves 0, 2, 4, 2.",
+              "o32": "Eight-step bass rhythm at 1, 4, 5, 8; relative melodic moves 0, 0, 2, 4."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o01",
+          "confidence": 0.11,
+          "probabilities": {
+            "o29": 0.02,
+            "o02": 0.07,
+            "o13": 0.02,
+            "o25": 0.01,
+            "o04": 0.1,
+            "o15": 0.02,
+            "o22": 0.02,
+            "o28": 0.02,
+            "o09": 0.04,
+            "o01": 0.13,
+            "o11": 0.04,
+            "o06": 0.03,
+            "o21": 0.02,
+            "o31": 0.02,
+            "o08": 0.02,
+            "o14": 0.01,
+            "o19": 0.02,
+            "o23": 0.04,
+            "o26": 0.01,
+            "o17": 0.01,
+            "o12": 0.04,
+            "o27": 0.01,
+            "o18": 0.01,
+            "o20": 0.01,
+            "o07": 0.02,
+            "o05": 0.03,
+            "o03": 0.1,
+            "o24": 0.03,
+            "o32": 0.02,
+            "o30": 0.02,
+            "o16": 0.02,
+            "o10": 0.02
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 2229,
+            "output_tokens": 307
+          }
+        },
+        {
+          "choice": "o01",
+          "confidence": 0.1,
+          "probabilities": {
+            "o31": 0.02,
+            "o08": 0.02,
+            "o18": 0.01,
+            "o21": 0.02,
+            "o25": 0.01,
+            "o01": 0.14,
+            "o19": 0.02,
+            "o10": 0.02,
+            "o24": 0.03,
+            "o20": 0.02,
+            "o13": 0.02,
+            "o05": 0.03,
+            "o15": 0.02,
+            "o26": 0.01,
+            "o11": 0.03,
+            "o22": 0.02,
+            "o03": 0.09,
+            "o06": 0.02,
+            "o04": 0.12,
+            "o09": 0.04,
+            "o28": 0.01,
+            "o16": 0.02,
+            "o12": 0.04,
+            "o23": 0.04,
+            "o30": 0.02,
+            "o14": 0.01,
+            "o02": 0.07,
+            "o07": 0.02,
+            "o29": 0.02,
+            "o32": 0.02,
+            "o17": 0.01,
+            "o27": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 2229,
+            "output_tokens": 307
+          }
+        }
+      ],
+      "jevTopChoice": "o01",
+      "selected": "o23",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.8072520119603723,
+      "selectedProbability": 0.03999999999999998
+    },
+    {
+      "stage": "lead",
+      "requestHash": "f8ff027a2e38cc479869a4182135f0be5d39303a8fee2c41b4951898413aa7ad",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "drums": {
+            "kick": [
+              0,
+              8
+            ],
+            "snare": [
+              4,
+              12
+            ]
+          },
+          "bass": {
+            "hits": [
+              0,
+              2,
+              4,
+              6
+            ],
+            "path": [
+              0,
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose the four-bar hook with the strongest identity and rhythmic fit.",
+            "criteria": {
+              "o01": "lead phrase, four bars; bar 1: c4 ~ f4 ~ g4 ~ ds4 ~; bar 2: d5 ~ g5 ~ ds5 ~ c5 ~; bar 3: a5 ~ f5 ~ as4 ~ a4 ~; bar 4: as4 ~ as4 ~ f4 ~ d4 ~",
+              "o02": "lead phrase, four bars; bar 1: d4 ~ ~ f4 as4 ~ ~ f4; bar 2: d5 ~ ~ ds5 c5 ~ ~ a4; bar 3: a5 ~ ~ d5 c5 ~ ~ c5; bar 4: d5 ~ ~ a4 a4 ~ ~ d4",
+              "o03": "lead phrase, four bars; bar 1: ds4 ~ f4 ~ ~ a4 ~ g4; bar 2: ds5 ~ f5 ~ ~ c5 ~ a4; bar 3: g5 ~ ds5 ~ ~ as4 ~ a4; bar 4: as4 ~ g4 ~ ~ f4 ~ d4",
+              "o04": "lead phrase, four bars; bar 1: d4 g4 ~ ~ g4 ~ f4 ~; bar 2: c5 ds5 ~ ~ ds5 ~ as4 ~; bar 3: f5 f5 ~ ~ c5 ~ c5 ~; bar 4: as4 g4 ~ ~ a4 ~ d4 ~",
+              "o05": "lead phrase, four bars; bar 1: ds4 ~ ~ ds4 ~ as4 ~ ~; bar 2: ds5 ~ ~ f5 ~ c5 ~ ~; bar 3: g5 ~ ~ d5 ~ c5 ~ ~; bar 4: as4 ~ ~ a4 ~ d4 ~ ~",
+              "o06": "lead phrase, four bars; bar 1: c4 ~ ds4 ~ g4 f4 ~ c4; bar 2: d5 ~ g5 ~ c5 c5 ~ g4; bar 3: f5 ~ f5 ~ d5 a4 ~ c5; bar 4: as4 ~ g4 ~ f4 a4 ~ d4",
+              "o07": "lead phrase, four bars; bar 1: c4 ~ g4 ~ g4 ~ c5 ~; bar 2: ds5 ~ d5 ~ a5 ~ ds5 ~; bar 3: f5 ~ as5 ~ a5 ~ ds5 ~; bar 4: ds5 ~ f5 ~ d5 ~ d4 ~",
+              "o08": "lead phrase, four bars; bar 1: ds4 ~ ~ a4 f4 ~ ~ a4; bar 2: ds5 ~ ~ c5 f5 ~ ~ f5; bar 3: f5 ~ ~ as5 a5 ~ ~ f5; bar 4: f5 ~ ~ f5 c5 ~ ~ d4",
+              "o09": "lead phrase, four bars; bar 1: d4 ~ as4 ~ ~ ds4 ~ as4; bar 2: f5 ~ d5 ~ ~ f5 ~ ds5; bar 3: ds5 ~ g5 ~ ~ g5 ~ f5; bar 4: g5 ~ ds5 ~ ~ d5 ~ d4",
+              "o10": "lead phrase, four bars; bar 1: ds4 as4 ~ ~ ds4 ~ as4 ~; bar 2: g5 d5 ~ ~ a5 ~ f5 ~; bar 3: ds5 a5 ~ ~ g5 ~ d5 ~; bar 4: ds5 ds5 ~ ~ d5 ~ d4 ~",
+              "o11": "lead phrase, four bars; bar 1: d4 ~ ~ g4 ~ f4 ~ ~; bar 2: f5 ~ ~ d5 ~ a5 ~ ~; bar 3: f5 ~ ~ a5 ~ g5 ~ ~; bar 4: ds5 ~ ~ ds5 ~ d4 ~ ~",
+              "o12": "lead phrase, four bars; bar 1: ds4 ~ a4 ~ g4 a4 ~ as4; bar 2: g5 ~ d5 ~ f5 ds5 ~ c5; bar 3: f5 ~ as5 ~ g5 d5 ~ d5; bar 4: g5 ~ ds5 ~ c5 a4 ~ d4",
+              "o13": "lead phrase, four bars; bar 1: g4 ~ f4 ~ c4 ~ as3 ~; bar 2: ds5 ~ a4 ~ a4 ~ as4 ~; bar 3: as4 ~ as4 ~ as4 ~ d5 ~; bar 4: g4 ~ g4 ~ as4 ~ d4 ~",
+              "o14": "lead phrase, four bars; bar 1: a4 ~ ~ g4 d4 ~ ~ d4; bar 2: ds5 ~ ~ a4 as4 ~ ~ a4; bar 3: d5 ~ ~ a4 as4 ~ ~ ds5; bar 4: a4 ~ ~ g4 as4 ~ ~ d4",
+              "o15": "lead phrase, four bars; bar 1: a4 ~ g4 ~ ~ d4 ~ as3; bar 2: d5 ~ a4 ~ ~ g4 ~ c5; bar 3: d5 ~ a4 ~ ~ d5 ~ ds5; bar 4: a4 ~ a4 ~ ~ as4 ~ d4",
+              "o16": "lead phrase, four bars; bar 1: g4 ds4 ~ ~ c4 ~ c4 ~; bar 2: d5 as4 ~ ~ a4 ~ a4 ~; bar 3: as4 c5 ~ ~ c5 ~ d5 ~; bar 4: a4 as4 ~ ~ c5 ~ d4 ~",
+              "o17": "lead phrase, four bars; bar 1: g4 ~ ~ g4 ~ d4 ~ ~; bar 2: c5 ~ ~ as4 ~ g4 ~ ~; bar 3: as4 ~ ~ a4 ~ c5 ~ ~; bar 4: g4 ~ ~ as4 ~ d4 ~ ~",
+              "o18": "lead phrase, four bars; bar 1: a4 ~ ds4 ~ ds4 as3 ~ c4; bar 2: ds5 ~ as4 ~ a4 as4 ~ ds5; bar 3: as4 ~ c5 ~ as4 f5 ~ f5; bar 4: g4 ~ as4 ~ as4 d5 ~ d4",
+              "o19": "lead phrase, four bars; bar 1: c4 ~ d4 ~ g4 ~ a4 ~; bar 2: as4 ~ ds5 ~ ds5 ~ c5 ~; bar 3: f5 ~ f5 ~ ds5 ~ c5 ~; bar 4: ds5 ~ d5 ~ g4 ~ d4 ~",
+              "o20": "lead phrase, four bars; bar 1: d4 ~ ~ ds4 ds4 ~ ~ a4; bar 2: c5 ~ ~ c5 g5 ~ ~ ds5; bar 3: ds5 ~ ~ g5 f5 ~ ~ d5; bar 4: f5 ~ ~ c5 a4 ~ ~ d4",
+              "o21": "lead phrase, four bars; bar 1: ds4 ~ ds4 ~ ~ f4 ~ a4; bar 2: c5 ~ d5 ~ ~ f5 ~ c5; bar 3: ds5 ~ a5 ~ ~ ds5 ~ as4; bar 4: ds5 ~ d5 ~ ~ as4 ~ d4",
+              "o22": "lead phrase, four bars; bar 1: d4 d4 ~ ~ f4 ~ as4 ~; bar 2: c5 d5 ~ ~ ds5 ~ c5 ~; bar 3: d5 a5 ~ ~ ds5 ~ as4 ~; bar 4: ds5 c5 ~ ~ as4 ~ d4 ~",
+              "o23": "lead phrase, four bars; bar 1: c4 ~ ~ c4 ~ g4 ~ ~; bar 2: a4 ~ ~ ds5 ~ f5 ~ ~; bar 3: d5 ~ ~ a5 ~ d5 ~ ~; bar 4: ds5 ~ ~ c5 ~ d4 ~ ~",
+              "o24": "lead phrase, four bars; bar 1: d4 ~ d4 ~ g4 a4 ~ ds4; bar 2: a4 ~ d5 ~ f5 d5 ~ c5; bar 3: f5 ~ f5 ~ f5 d5 ~ c5; bar 4: f5 ~ as4 ~ as4 g4 ~ d4",
+              "o25": "lead phrase, four bars; bar 1: ds4 ~ a4 ~ c5 ~ a4 ~; bar 2: ds5 ~ f5 ~ g5 ~ c5 ~; bar 3: g5 ~ g5 ~ f5 ~ d5 ~; bar 4: d5 ~ as4 ~ a4 ~ d4 ~",
+              "o26": "lead phrase, four bars; bar 1: f4 ~ ~ as4 a4 ~ ~ g4; bar 2: ds5 ~ ~ a5 f5 ~ ~ c5; bar 3: g5 ~ ~ g5 ds5 ~ ~ c5; bar 4: d5 ~ ~ d5 as4 ~ ~ d4",
+              "o27": "lead phrase, four bars; bar 1: ds4 ~ g4 ~ ~ as4 ~ a4; bar 2: f5 ~ f5 ~ ~ ds5 ~ ds5; bar 3: a5 ~ a5 ~ ~ ds5 ~ as4; bar 4: d5 ~ d5 ~ ~ a4 ~ d4",
+              "o28": "lead phrase, four bars; bar 1: f4 a4 ~ ~ as4 ~ a4 ~; bar 2: ds5 g5 ~ ~ g5 ~ ds5 ~; bar 3: g5 g5 ~ ~ f5 ~ c5 ~; bar 4: f5 c5 ~ ~ a4 ~ d4 ~",
+              "o29": "lead phrase, four bars; bar 1: ds4 ~ ~ as4 ~ a4 ~ ~; bar 2: g5 ~ ~ g5 ~ ds5 ~ ~; bar 3: a5 ~ ~ f5 ~ ds5 ~ ~; bar 4: ds5 ~ ~ as4 ~ d4 ~ ~",
+              "o30": "lead phrase, four bars; bar 1: g4 ~ a4 ~ as4 a4 ~ g4; bar 2: g5 ~ f5 ~ ds5 c5 ~ c5; bar 3: g5 ~ g5 ~ ds5 d5 ~ d5; bar 4: d5 ~ d5 ~ as4 d5 ~ d4",
+              "o31": "lead phrase, four bars; bar 1: d4 ~ d4 ~ c4 ~ f4 ~; bar 2: a4 ~ c5 ~ c5 ~ g5 ~; bar 3: d5 ~ f5 ~ g5 ~ f5 ~; bar 4: as4 ~ d5 ~ c5 ~ d4 ~",
+              "o32": "lead phrase, four bars; bar 1: ds4 ~ ~ d4 ds4 ~ ~ g4; bar 2: a4 ~ ~ c5 d5 ~ ~ f5; bar 3: d5 ~ ~ d5 a5 ~ ~ ds5; bar 4: as4 ~ ~ f5 d5 ~ ~ d4",
+              "o33": "lead phrase, four bars; bar 1: c4 ~ c4 ~ ~ ds4 ~ ds4; bar 2: a4 ~ as4 ~ ~ d5 ~ g5; bar 3: c5 ~ d5 ~ ~ a5 ~ ds5; bar 4: d5 ~ d5 ~ ~ d5 ~ d4",
+              "o34": "lead phrase, four bars; bar 1: ds4 c4 ~ ~ d4 ~ g4 ~; bar 2: g4 as4 ~ ~ d5 ~ g5 ~; bar 3: as4 ds5 ~ ~ g5 ~ d5 ~; bar 4: as4 ds5 ~ ~ as4 ~ d4 ~",
+              "o35": "lead phrase, four bars; bar 1: ds4 ~ ~ c4 ~ ds4 ~ ~; bar 2: as4 ~ ~ a4 ~ d5 ~ ~; bar 3: as4 ~ ~ d5 ~ g5 ~ ~; bar 4: c5 ~ ~ ds5 ~ d4 ~ ~",
+              "o36": "lead phrase, four bars; bar 1: ds4 ~ as3 ~ d4 f4 ~ as4; bar 2: a4 ~ a4 ~ ds5 f5 ~ d5; bar 3: d5 ~ d5 ~ g5 ds5 ~ c5; bar 4: c5 ~ d5 ~ as4 a4 ~ d4",
+              "o37": "lead phrase, four bars; bar 1: a4 ~ as4 ~ as4 ~ f4 ~; bar 2: f5 ~ f5 ~ c5 ~ a4 ~; bar 3: a5 ~ f5 ~ d5 ~ c5 ~; bar 4: c5 ~ as4 ~ a4 ~ d4 ~",
+              "o38": "lead phrase, four bars; bar 1: g4 ~ ~ c5 a4 ~ ~ g4; bar 2: f5 ~ ~ f5 ds5 ~ ~ a4; bar 3: a5 ~ ~ d5 c5 ~ ~ a4; bar 4: d5 ~ ~ a4 g4 ~ ~ d4",
+              "o39": "lead phrase, four bars; bar 1: g4 ~ c5 ~ ~ g4 ~ f4; bar 2: f5 ~ g5 ~ ~ c5 ~ as4; bar 3: f5 ~ d5 ~ ~ d5 ~ a4; bar 4: d5 ~ as4 ~ ~ g4 ~ d4",
+              "o40": "lead phrase, four bars; bar 1: g4 c5 ~ ~ a4 ~ ds4 ~; bar 2: a5 ds5 ~ ~ d5 ~ a4 ~; bar 3: a5 ds5 ~ ~ d5 ~ as4 ~; bar 4: c5 as4 ~ ~ a4 ~ d4 ~",
+              "o41": "lead phrase, four bars; bar 1: as4 ~ ~ as4 ~ g4 ~ ~; bar 2: f5 ~ ~ ds5 ~ ds5 ~ ~; bar 3: a5 ~ ~ ds5 ~ d5 ~ ~; bar 4: d5 ~ ~ as4 ~ d4 ~ ~",
+              "o42": "lead phrase, four bars; bar 1: as4 ~ c5 ~ a4 f4 ~ d4; bar 2: a5 ~ f5 ~ ds5 c5 ~ as4; bar 3: f5 ~ f5 ~ d5 c5 ~ a5; bar 4: as4 ~ a4 ~ f4 d5 ~ d4",
+              "o43": "lead phrase, four bars; bar 1: ds4 ~ ds4 ~ c4 ~ a4 ~; bar 2: ds5 ~ as4 ~ ds5 ~ ds5 ~; bar 3: as4 ~ g5 ~ f5 ~ a5 ~; bar 4: f5 ~ d5 ~ ds5 ~ d4 ~",
+              "o44": "lead phrase, four bars; bar 1: ds4 ~ ~ g4 ds4 ~ ~ as4; bar 2: ds5 ~ ~ a4 ds5 ~ ~ ds5; bar 3: c5 ~ ~ g5 f5 ~ ~ as5; bar 4: ds5 ~ ~ as4 g5 ~ ~ d4",
+              "o45": "lead phrase, four bars; bar 1: d4 ~ f4 ~ ~ ds4 ~ as4; bar 2: c5 ~ a4 ~ ~ ds5 ~ ds5; bar 3: as4 ~ a5 ~ ~ d5 ~ g5; bar 4: d5 ~ as4 ~ ~ g5 ~ d4",
+              "o46": "lead phrase, four bars; bar 1: c4 f4 ~ ~ c4 ~ g4 ~; bar 2: d5 c5 ~ ~ g5 ~ d5 ~; bar 3: as4 f5 ~ ~ f5 ~ g5 ~; bar 4: f5 c5 ~ ~ f5 ~ d4 ~",
+              "o47": "lead phrase, four bars; bar 1: d4 ~ ~ f4 ~ ds4 ~ ~; bar 2: c5 ~ ~ as4 ~ ds5 ~ ~; bar 3: d5 ~ ~ g5 ~ f5 ~ ~; bar 4: d5 ~ ~ as4 ~ d4 ~ ~",
+              "o48": "lead phrase, four bars; bar 1: c4 ~ f4 ~ d4 a4 ~ g4; bar 2: c5 ~ a4 ~ ds5 c5 ~ f5; bar 3: d5 ~ f5 ~ ds5 a5 ~ d5; bar 4: f5 ~ c5 ~ g5 a4 ~ d4"
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o05",
+          "confidence": 0.06,
+          "probabilities": {
+            "o29": 0.03,
+            "o02": 0.04,
+            "o48": 0.01,
+            "o45": 0.02,
+            "o13": 0.02,
+            "o25": 0.02,
+            "o04": 0.02,
+            "o46": 0.01,
+            "o43": 0.02,
+            "o15": 0.01,
+            "o22": 0.03,
+            "o28": 0.01,
+            "o34": 0.02,
+            "o09": 0.04,
+            "o01": 0.03,
+            "o11": 0.01,
+            "o06": 0.03,
+            "o35": 0.02,
+            "o21": 0.03,
+            "o38": 0.01,
+            "o08": 0.01,
+            "o14": 0.02,
+            "o31": 0.02,
+            "o23": 0.01,
+            "o19": 0.02,
+            "o39": 0.01,
+            "o41": 0.02,
+            "o44": 0.02,
+            "o26": 0.02,
+            "o12": 0.03,
+            "o17": 0.01,
+            "o27": 0.01,
+            "o18": 0.02,
+            "o20": 0.02,
+            "o37": 0.02,
+            "o47": 0.02,
+            "o36": 0.02,
+            "o42": 0.01,
+            "o24": 0.02,
+            "o05": 0.07,
+            "o07": 0.01,
+            "o33": 0.02,
+            "o03": 0.049999999999999996,
+            "o16": 0.01,
+            "o32": 0.02,
+            "o40": 0.01,
+            "o10": 0.03,
+            "o30": 0.02
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 4924,
+            "output_tokens": 451
+          }
+        },
+        {
+          "choice": "o05",
+          "confidence": 0.06,
+          "probabilities": {
+            "o37": 0.02,
+            "o07": 0.01,
+            "o05": 0.07,
+            "o27": 0.01,
+            "o08": 0.01,
+            "o16": 0.01,
+            "o40": 0.01,
+            "o46": 0.01,
+            "o02": 0.04,
+            "o12": 0.03,
+            "o15": 0.01,
+            "o30": 0.01,
+            "o45": 0.02,
+            "o48": 0.01,
+            "o26": 0.02,
+            "o18": 0.02,
+            "o21": 0.03,
+            "o32": 0.02,
+            "o42": 0.02,
+            "o35": 0.02,
+            "o38": 0.01,
+            "o25": 0.02,
+            "o04": 0.02,
+            "o20": 0.02,
+            "o01": 0.03,
+            "o33": 0.02,
+            "o43": 0.01,
+            "o41": 0.02,
+            "o22": 0.03,
+            "o44": 0.02,
+            "o10": 0.03,
+            "o23": 0.01,
+            "o31": 0.02,
+            "o29": 0.02,
+            "o19": 0.02,
+            "o36": 0.02,
+            "o39": 0.01,
+            "o11": 0.01,
+            "o14": 0.01,
+            "o13": 0.02,
+            "o28": 0.01,
+            "o47": 0.02,
+            "o03": 0.08,
+            "o06": 0.03,
+            "o34": 0.02,
+            "o24": 0.02,
+            "o17": 0.01,
+            "o09": 0.04
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 4924,
+            "output_tokens": 451
+          }
+        }
+      ],
+      "jevTopChoice": "o05",
+      "selected": "o21",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.5278707984834909,
+      "selectedProbability": 0.029999999999999985
+    },
+    {
+      "stage": "variation",
+      "requestHash": "9d8599f3b60add0390d161a8fbe656810a8841f6e2f0d08016d8937b0679e6f7",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "lead": [
+            "ds4 ~ ds4 ~ ~ f4 ~ a4",
+            "c5 ~ d5 ~ ~ f5 ~ c5",
+            "ds5 ~ a5 ~ ~ ds5 ~ as4",
+            "ds5 ~ d5 ~ ~ as4 ~ d4"
+          ]
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose a second four-bar hook that develops and contrasts with the first.",
+            "criteria": {
+              "o01": "variation phrase, four bars; bar 1: c4 ~ f4 ~ as4 ~ g4 ~; bar 2: c5 ~ ds5 ~ ds5 ~ c5 ~; bar 3: f5 ~ d5 ~ c5 ~ c5 ~; bar 4: as4 ~ as4 ~ a4 ~ d4 ~",
+              "o02": "variation phrase, four bars; bar 1: d4 ~ ~ g4 a4 ~ ~ ds4; bar 2: c5 ~ ~ ds5 c5 ~ ~ as4; bar 3: g5 ~ ~ d5 c5 ~ ~ a4; bar 4: c5 ~ ~ as4 g4 ~ ~ d4",
+              "o03": "variation phrase, four bars; bar 1: d4 ~ ds4 ~ ~ a4 ~ g4; bar 2: d5 ~ ds5 ~ ~ c5 ~ c5; bar 3: g5 ~ d5 ~ ~ d5 ~ c5; bar 4: c5 ~ as4 ~ ~ a4 ~ d4",
+              "o04": "variation phrase, four bars; bar 1: d4 ds4 ~ ~ a4 ~ g4 ~; bar 2: ds5 ds5 ~ ~ ds5 ~ a4 ~; bar 3: a5 ds5 ~ ~ c5 ~ as4 ~; bar 4: as4 g4 ~ ~ f4 ~ d4 ~",
+              "o05": "variation phrase, four bars; bar 1: c4 ~ ~ g4 ~ a4 ~ ~; bar 2: c5 ~ ~ ds5 ~ ds5 ~ ~; bar 3: a5 ~ ~ f5 ~ as4 ~ ~; bar 4: d5 ~ ~ g4 ~ d4 ~ ~",
+              "o06": "variation phrase, four bars; bar 1: d4 ~ g4 ~ a4 f4 ~ ds4; bar 2: d5 ~ f5 ~ c5 c5 ~ a4; bar 3: a5 ~ d5 ~ d5 c5 ~ c5; bar 4: c5 ~ g4 ~ a4 a4 ~ d4",
+              "o07": "variation phrase, four bars; bar 1: ds4 ~ g4 ~ f4 ~ a4 ~; bar 2: f5 ~ c5 ~ a5 ~ ds5 ~; bar 3: d5 ~ g5 ~ f5 ~ f5 ~; bar 4: g5 ~ f5 ~ d5 ~ d4 ~",
+              "o08": "variation phrase, four bars; bar 1: c4 ~ ~ g4 ds4 ~ ~ as4; bar 2: ds5 ~ ~ c5 a5 ~ ~ f5; bar 3: f5 ~ ~ a5 g5 ~ ~ ds5; bar 4: f5 ~ ~ ds5 as4 ~ ~ d4",
+              "o09": "variation phrase, four bars; bar 1: ds4 ~ as4 ~ ~ g4 ~ a4; bar 2: ds5 ~ d5 ~ ~ g5 ~ f5; bar 3: f5 ~ g5 ~ ~ f5 ~ f5; bar 4: f5 ~ f5 ~ ~ as4 ~ d4",
+              "o10": "variation phrase, four bars; bar 1: ds4 as4 ~ ~ ds4 ~ c5 ~; bar 2: ds5 ds5 ~ ~ f5 ~ f5 ~; bar 3: f5 g5 ~ ~ f5 ~ ds5 ~; bar 4: f5 ds5 ~ ~ as4 ~ d4 ~",
+              "o11": "variation phrase, four bars; bar 1: d4 ~ ~ as4 ~ ds4 ~ ~; bar 2: g5 ~ ~ ds5 ~ g5 ~ ~; bar 3: ds5 ~ ~ as5 ~ g5 ~ ~; bar 4: f5 ~ ~ ds5 ~ d4 ~ ~",
+              "o12": "variation phrase, four bars; bar 1: c4 ~ g4 ~ g4 c5 ~ a4; bar 2: g5 ~ c5 ~ a5 f5 ~ c5; bar 3: f5 ~ g5 ~ f5 ds5 ~ as4; bar 4: ds5 ~ f5 ~ as4 a4 ~ d4",
+              "o13": "variation phrase, four bars; bar 1: g4 ~ f4 ~ c4 ~ as3 ~; bar 2: d5 ~ as4 ~ a4 ~ c5 ~; bar 3: as4 ~ as4 ~ as4 ~ ds5 ~; bar 4: f4 ~ a4 ~ c5 ~ d4 ~",
+              "o14": "variation phrase, four bars; bar 1: g4 ~ ~ ds4 d4 ~ ~ d4; bar 2: c5 ~ ~ as4 as4 ~ ~ a4; bar 3: d5 ~ ~ a4 c5 ~ ~ d5; bar 4: f4 ~ ~ g4 as4 ~ ~ d4",
+              "o15": "variation phrase, four bars; bar 1: as4 ~ g4 ~ ~ ds4 ~ c4; bar 2: c5 ~ c5 ~ ~ g4 ~ a4; bar 3: c5 ~ as4 ~ ~ c5 ~ ds5; bar 4: a4 ~ g4 ~ ~ c5 ~ d4",
+              "o16": "variation phrase, four bars; bar 1: as4 g4 ~ ~ c4 ~ as3 ~; bar 2: ds5 c5 ~ ~ as4 ~ as4 ~; bar 3: c5 a4 ~ ~ as4 ~ ds5 ~; bar 4: g4 as4 ~ ~ c5 ~ d4 ~",
+              "o17": "variation phrase, four bars; bar 1: g4 ~ ~ ds4 ~ c4 ~ ~; bar 2: ds5 ~ ~ a4 ~ as4 ~ ~; bar 3: c5 ~ ~ c5 ~ d5 ~ ~; bar 4: a4 ~ ~ g4 ~ d4 ~ ~",
+              "o18": "variation phrase, four bars; bar 1: g4 ~ g4 ~ d4 c4 ~ c4; bar 2: c5 ~ as4 ~ a4 as4 ~ d5; bar 3: c5 ~ c5 ~ c5 ds5 ~ f5; bar 4: a4 ~ a4 ~ as4 ds5 ~ d4",
+              "o19": "variation phrase, four bars; bar 1: d4 ~ c4 ~ ds4 ~ as4 ~; bar 2: a4 ~ c5 ~ g5 ~ c5 ~; bar 3: f5 ~ a5 ~ ds5 ~ as4 ~; bar 4: f5 ~ c5 ~ a4 ~ d4 ~",
+              "o20": "variation phrase, four bars; bar 1: d4 ~ ~ d4 f4 ~ ~ as4; bar 2: a4 ~ ~ ds5 g5 ~ ~ ds5; bar 3: ds5 ~ ~ f5 f5 ~ ~ d5; bar 4: d5 ~ ~ c5 g4 ~ ~ d4",
+              "o21": "variation phrase, four bars; bar 1: ds4 ~ ds4 ~ ~ g4 ~ a4; bar 2: a4 ~ ds5 ~ ~ f5 ~ ds5; bar 3: f5 ~ f5 ~ ~ ds5 ~ as4; bar 4: d5 ~ d5 ~ ~ g4 ~ d4",
+              "o22": "variation phrase, four bars; bar 1: c4 c4 ~ ~ g4 ~ as4 ~; bar 2: a4 c5 ~ ~ ds5 ~ c5 ~; bar 3: ds5 f5 ~ ~ f5 ~ d5 ~; bar 4: ds5 c5 ~ ~ as4 ~ d4 ~",
+              "o23": "variation phrase, four bars; bar 1: ds4 ~ ~ c4 ~ g4 ~ ~; bar 2: as4 ~ ~ ds5 ~ f5 ~ ~; bar 3: f5 ~ ~ g5 ~ f5 ~ ~; bar 4: ds5 ~ ~ c5 ~ d4 ~ ~",
+              "o24": "variation phrase, four bars; bar 1: c4 ~ ds4 ~ f4 a4 ~ g4; bar 2: as4 ~ c5 ~ ds5 ds5 ~ as4; bar 3: ds5 ~ f5 ~ ds5 d5 ~ as4; bar 4: ds5 ~ as4 ~ a4 a4 ~ d4",
+              "o25": "variation phrase, four bars; bar 1: f4 ~ a4 ~ as4 ~ a4 ~; bar 2: g5 ~ g5 ~ f5 ~ c5 ~; bar 3: g5 ~ g5 ~ ds5 ~ as4 ~; bar 4: ds5 ~ as4 ~ g4 ~ d4 ~",
+              "o26": "variation phrase, four bars; bar 1: ds4 ~ ~ g4 a4 ~ ~ g4; bar 2: f5 ~ ~ a5 f5 ~ ~ ds5; bar 3: as5 ~ ~ g5 d5 ~ ~ c5; bar 4: ds5 ~ ~ c5 a4 ~ ~ d4",
+              "o27": "variation phrase, four bars; bar 1: f4 ~ g4 ~ ~ c5 ~ g4; bar 2: ds5 ~ f5 ~ ~ ds5 ~ d5; bar 3: a5 ~ f5 ~ ~ ds5 ~ d5; bar 4: ds5 ~ as4 ~ ~ as4 ~ d4",
+              "o28": "variation phrase, four bars; bar 1: ds4 g4 ~ ~ c5 ~ as4 ~; bar 2: ds5 a5 ~ ~ g5 ~ c5 ~; bar 3: g5 f5 ~ ~ f5 ~ c5 ~; bar 4: ds5 d5 ~ ~ a4 ~ d4 ~",
+              "o29": "variation phrase, four bars; bar 1: f4 ~ ~ g4 ~ as4 ~ ~; bar 2: g5 ~ ~ a5 ~ g5 ~ ~; bar 3: a5 ~ ~ a5 ~ ds5 ~ ~; bar 4: f5 ~ ~ d5 ~ d4 ~ ~",
+              "o30": "variation phrase, four bars; bar 1: f4 ~ a4 ~ a4 a4 ~ ds4; bar 2: f5 ~ f5 ~ g5 c5 ~ as4; bar 3: g5 ~ g5 ~ ds5 as4 ~ d5; bar 4: d5 ~ d5 ~ a4 c5 ~ d4",
+              "o31": "variation phrase, four bars; bar 1: c4 ~ c4 ~ d4 ~ f4 ~; bar 2: as4 ~ as4 ~ ds5 ~ f5 ~; bar 3: c5 ~ ds5 ~ f5 ~ d5 ~; bar 4: d5 ~ ds5 ~ c5 ~ d4 ~",
+              "o32": "variation phrase, four bars; bar 1: d4 ~ ~ as3 d4 ~ ~ f4; bar 2: a4 ~ ~ c5 ds5 ~ ~ g5; bar 3: c5 ~ ~ ds5 a5 ~ ~ f5; bar 4: c5 ~ ~ d5 d5 ~ ~ d4",
+              "o33": "variation phrase, four bars; bar 1: d4 ~ c4 ~ ~ c4 ~ g4; bar 2: as4 ~ a4 ~ ~ d5 ~ f5; bar 3: as4 ~ f5 ~ ~ f5 ~ ds5; bar 4: as4 ~ f5 ~ ~ as4 ~ d4",
+              "o34": "variation phrase, four bars; bar 1: ds4 d4 ~ ~ c4 ~ f4 ~; bar 2: a4 c5 ~ ~ ds5 ~ ds5 ~; bar 3: c5 d5 ~ ~ a5 ~ d5 ~; bar 4: d5 ds5 ~ ~ as4 ~ d4 ~",
+              "o35": "variation phrase, four bars; bar 1: d4 ~ ~ d4 ~ d4 ~ ~; bar 2: g4 ~ ~ c5 ~ ds5 ~ ~; bar 3: as4 ~ ~ ds5 ~ a5 ~ ~; bar 4: c5 ~ ~ f5 ~ d4 ~ ~",
+              "o36": "variation phrase, four bars; bar 1: d4 ~ as3 ~ ds4 g4 ~ a4; bar 2: as4 ~ c5 ~ c5 ds5 ~ c5; bar 3: c5 ~ d5 ~ f5 d5 ~ c5; bar 4: c5 ~ ds5 ~ as4 a4 ~ d4",
+              "o37": "variation phrase, four bars; bar 1: a4 ~ as4 ~ as4 ~ ds4 ~; bar 2: f5 ~ f5 ~ c5 ~ as4 ~; bar 3: a5 ~ d5 ~ as4 ~ a4 ~; bar 4: c5 ~ as4 ~ f4 ~ d4 ~",
+              "o38": "variation phrase, four bars; bar 1: g4 ~ ~ a4 g4 ~ ~ ds4; bar 2: g5 ~ ~ f5 c5 ~ ~ a4; bar 3: g5 ~ ~ d5 d5 ~ ~ as4; bar 4: as4 ~ ~ as4 f4 ~ ~ d4",
+              "o39": "variation phrase, four bars; bar 1: a4 ~ c5 ~ ~ a4 ~ g4; bar 2: g5 ~ g5 ~ ~ d5 ~ a4; bar 3: a5 ~ ds5 ~ ~ as4 ~ a4; bar 4: as4 ~ a4 ~ ~ f4 ~ d4",
+              "o40": "variation phrase, four bars; bar 1: a4 c5 ~ ~ as4 ~ ds4 ~; bar 2: g5 g5 ~ ~ ds5 ~ c5 ~; bar 3: a5 f5 ~ ~ as4 ~ c5 ~; bar 4: c5 a4 ~ ~ g4 ~ d4 ~",
+              "o41": "variation phrase, four bars; bar 1: a4 ~ ~ c5 ~ a4 ~ ~; bar 2: g5 ~ ~ f5 ~ c5 ~ ~; bar 3: a5 ~ ~ d5 ~ as4 ~ ~; bar 4: as4 ~ ~ g4 ~ d4 ~ ~",
+              "o42": "variation phrase, four bars; bar 1: g4 ~ a4 ~ as4 ds4 ~ ds4; bar 2: g5 ~ g5 ~ d5 c5 ~ g4; bar 3: a5 ~ f5 ~ as4 c5 ~ f5; bar 4: c5 ~ g4 ~ f4 d5 ~ d4",
+              "o43": "variation phrase, four bars; bar 1: c4 ~ g4 ~ ds4 ~ as4 ~; bar 2: ds5 ~ as4 ~ g5 ~ c5 ~; bar 3: d5 ~ a5 ~ f5 ~ a5 ~; bar 4: f5 ~ c5 ~ f5 ~ d4 ~",
+              "o44": "variation phrase, four bars; bar 1: c4 ~ ~ f4 ds4 ~ ~ a4; bar 2: ds5 ~ ~ c5 ds5 ~ ~ ds5; bar 3: d5 ~ ~ a5 d5 ~ ~ g5; bar 4: f5 ~ ~ as4 f5 ~ ~ d4",
+              "o45": "variation phrase, four bars; bar 1: c4 ~ f4 ~ ~ c4 ~ a4; bar 2: d5 ~ as4 ~ ~ g5 ~ c5; bar 3: as4 ~ a5 ~ ~ d5 ~ g5; bar 4: d5 ~ d5 ~ ~ ds5 ~ d4",
+              "o46": "variation phrase, four bars; bar 1: c4 f4 ~ ~ d4 ~ a4 ~; bar 2: ds5 c5 ~ ~ g5 ~ ds5 ~; bar 3: as4 a5 ~ ~ ds5 ~ g5 ~; bar 4: f5 c5 ~ ~ f5 ~ d4 ~",
+              "o47": "variation phrase, four bars; bar 1: d4 ~ ~ ds4 ~ d4 ~ ~; bar 2: d5 ~ ~ a4 ~ ds5 ~ ~; bar 3: d5 ~ ~ a5 ~ ds5 ~ ~; bar 4: d5 ~ ~ d5 ~ d4 ~ ~",
+              "o48": "variation phrase, four bars; bar 1: ds4 ~ ds4 ~ d4 a4 ~ f4; bar 2: d5 ~ a4 ~ g5 c5 ~ f5; bar 3: as4 ~ g5 ~ d5 g5 ~ d5; bar 4: d5 ~ as4 ~ g5 as4 ~ d4"
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o21",
+          "confidence": 0.06,
+          "probabilities": {
+            "o26": 0.03,
+            "o45": 0.01,
+            "o13": 0.01,
+            "o03": 0.05,
+            "o33": 0.01,
+            "o25": 0.01,
+            "o47": 0.01,
+            "o11": 0.02,
+            "o29": 0.01,
+            "o10": 0.04,
+            "o27": 0.02,
+            "o40": 0.02,
+            "o34": 0.01,
+            "o02": 0.04,
+            "o43": 0.02,
+            "o19": 0.03,
+            "o31": 0.02,
+            "o42": 0.01,
+            "o14": 0.01,
+            "o04": 0.05,
+            "o06": 0.02,
+            "o01": 0.03,
+            "o17": 0.01,
+            "o18": 0.01,
+            "o20": 0.02,
+            "o05": 0.03,
+            "o12": 0.02,
+            "o07": 0.02,
+            "o37": 0.02,
+            "o16": 0.01,
+            "o23": 0.01,
+            "o46": 0.01,
+            "o21": 0.09,
+            "o15": 0.01,
+            "o28": 0.03,
+            "o32": 0.01,
+            "o08": 0.02,
+            "o35": 0.01,
+            "o41": 0.01,
+            "o39": 0.01,
+            "o48": 0.02,
+            "o44": 0.02,
+            "o24": 0.05,
+            "o38": 0.01,
+            "o30": 0.01,
+            "o09": 0.03,
+            "o22": 0.01,
+            "o36": 0.02
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 4926,
+            "output_tokens": 451
+          }
+        },
+        {
+          "choice": "o21",
+          "confidence": 0.05,
+          "probabilities": {
+            "o16": 0.01,
+            "o13": 0.01,
+            "o23": 0.01,
+            "o41": 0.02,
+            "o30": 0.01,
+            "o48": 0.02,
+            "o31": 0.02,
+            "o40": 0.02,
+            "o46": 0.01,
+            "o14": 0.01,
+            "o38": 0.01,
+            "o25": 0.01,
+            "o39": 0.01,
+            "o22": 0.01,
+            "o36": 0.02,
+            "o12": 0.02,
+            "o26": 0.03,
+            "o29": 0.01,
+            "o32": 0.01,
+            "o04": 0.05,
+            "o37": 0.02,
+            "o42": 0.01,
+            "o15": 0.01,
+            "o45": 0.01,
+            "o18": 0.01,
+            "o09": 0.03,
+            "o02": 0.04,
+            "o21": 0.07,
+            "o24": 0.05,
+            "o33": 0.01,
+            "o10": 0.04,
+            "o20": 0.02,
+            "o34": 0.01,
+            "o03": 0.06,
+            "o28": 0.03,
+            "o08": 0.02,
+            "o19": 0.03,
+            "o44": 0.02,
+            "o05": 0.03,
+            "o27": 0.02,
+            "o35": 0.01,
+            "o43": 0.02,
+            "o06": 0.02,
+            "o01": 0.03,
+            "o07": 0.02,
+            "o17": 0.01,
+            "o47": 0.01,
+            "o11": 0.02
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 4926,
+            "output_tokens": 451
+          }
+        }
+      ],
+      "jevTopChoice": "o21",
+      "selected": "o30",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.7488424358889461,
+      "selectedProbability": 0.009999999999999995
+    },
+    {
+      "stage": "counter",
+      "requestHash": "f7a97e79769c3bd783153754e4231f476993bc78f7b35eeadd536b0397536c95",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "lead": [
+            "ds4 ~ ds4 ~ ~ f4 ~ a4",
+            "c5 ~ d5 ~ ~ f5 ~ c5",
+            "ds5 ~ a5 ~ ~ ds5 ~ as4",
+            "ds5 ~ d5 ~ ~ as4 ~ d4"
+          ],
+          "variation": [
+            "f4 ~ a4 ~ a4 a4 ~ ds4",
+            "f5 ~ f5 ~ g5 c5 ~ as4",
+            "g5 ~ g5 ~ ds5 as4 ~ d5",
+            "d5 ~ d5 ~ a4 c5 ~ d4"
+          ]
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose a contrasting four-bar phrase that answers the hook without crowding it.",
+            "criteria": {
+              "o01": "counter phrase, four bars; bar 1: d5 ~ f5 ~ as5 ~ ds5 ~; bar 2: ds6 ~ f6 ~ d6 ~ a5 ~; bar 3: f6 ~ f6 ~ d6 ~ c6 ~; bar 4: d6 ~ g5 ~ g5 ~ d5 ~",
+              "o02": "counter phrase, four bars; bar 1: d5 ~ ~ f5 a5 ~ ~ f5; bar 2: ds6 ~ ~ f6 ds6 ~ ~ c6; bar 3: a6 ~ ~ ds6 as5 ~ ~ c6; bar 4: c6 ~ ~ as5 g5 ~ ~ d5",
+              "o03": "counter phrase, four bars; bar 1: c5 ~ ds5 ~ ~ g5 ~ ds5; bar 2: d6 ~ g6 ~ ~ d6 ~ a5; bar 3: a6 ~ d6 ~ ~ c6 ~ as5; bar 4: d6 ~ a5 ~ ~ g5 ~ d5",
+              "o04": "counter phrase, four bars; bar 1: ds5 ds5 ~ ~ a5 ~ f5 ~; bar 2: c6 ds6 ~ ~ ds6 ~ a5 ~; bar 3: g6 f6 ~ ~ as5 ~ a5 ~; bar 4: as5 a5 ~ ~ f5 ~ d5 ~",
+              "o05": "counter phrase, four bars; bar 1: c5 ~ ~ g5 ~ as5 ~ ~; bar 2: ds6 ~ ~ ds6 ~ c6 ~ ~; bar 3: a6 ~ ~ ds6 ~ c6 ~ ~; bar 4: c6 ~ ~ g5 ~ d5 ~ ~",
+              "o06": "counter phrase, four bars; bar 1: c5 ~ ds5 ~ as5 g5 ~ d5; bar 2: c6 ~ ds6 ~ c6 a5 ~ g5; bar 3: g6 ~ ds6 ~ as5 c6 ~ as5; bar 4: as5 ~ a5 ~ a5 a5 ~ d5",
+              "o07": "counter phrase, four bars; bar 1: ds5 ~ a5 ~ f5 ~ as5 ~; bar 2: f6 ~ ds6 ~ f6 ~ ds6 ~; bar 3: ds6 ~ g6 ~ a6 ~ ds6 ~; bar 4: g6 ~ f6 ~ c6 ~ d5 ~",
+              "o08": "counter phrase, four bars; bar 1: c5 ~ ~ a5 f5 ~ ~ c6; bar 2: ds6 ~ ~ d6 g6 ~ ~ f6; bar 3: f6 ~ ~ g6 f6 ~ ~ d6; bar 4: ds6 ~ ~ ds6 d6 ~ ~ d5",
+              "o09": "counter phrase, four bars; bar 1: c5 ~ as5 ~ ~ ds5 ~ c6; bar 2: ds6 ~ ds6 ~ ~ a6 ~ g6; bar 3: ds6 ~ g6 ~ ~ a6 ~ f6; bar 4: g6 ~ f6 ~ ~ d6 ~ d5",
+              "o10": "counter phrase, four bars; bar 1: ds5 a5 ~ ~ f5 ~ a5 ~; bar 2: g6 ds6 ~ ~ f6 ~ ds6 ~; bar 3: f6 g6 ~ ~ g6 ~ f6 ~; bar 4: f6 d6 ~ ~ d6 ~ d5 ~",
+              "o11": "counter phrase, four bars; bar 1: d5 ~ ~ as5 ~ f5 ~ ~; bar 2: f6 ~ ~ c6 ~ g6 ~ ~; bar 3: d6 ~ ~ as6 ~ a6 ~ ~; bar 4: g6 ~ ~ ds6 ~ d5 ~ ~",
+              "o12": "counter phrase, four bars; bar 1: c5 ~ a5 ~ g5 as5 ~ as5; bar 2: ds6 ~ c6 ~ g6 f6 ~ ds6; bar 3: f6 ~ g6 ~ g6 f6 ~ as5; bar 4: f6 ~ f6 ~ as5 as5 ~ d5",
+              "o13": "counter phrase, four bars; bar 1: a5 ~ g5 ~ d5 ~ d5 ~; bar 2: c6 ~ as5 ~ a5 ~ a5 ~; bar 3: as5 ~ a5 ~ d6 ~ ds6 ~; bar 4: a5 ~ g5 ~ d6 ~ d5 ~",
+              "o14": "counter phrase, four bars; bar 1: as5 ~ ~ f5 ds5 ~ ~ as4; bar 2: d6 ~ ~ c6 a5 ~ ~ c6; bar 3: d6 ~ ~ a5 as5 ~ ~ ds6; bar 4: g5 ~ ~ a5 d6 ~ ~ d5",
+              "o15": "counter phrase, four bars; bar 1: g5 ~ f5 ~ ~ d5 ~ d5; bar 2: c6 ~ as5 ~ ~ a5 ~ a5; bar 3: d6 ~ c6 ~ ~ c6 ~ f6; bar 4: g5 ~ as5 ~ ~ d6 ~ d5",
+              "o16": "counter phrase, four bars; bar 1: a5 g5 ~ ~ c5 ~ d5 ~; bar 2: d6 as5 ~ ~ a5 ~ as5 ~; bar 3: as5 as5 ~ ~ as5 ~ d6 ~; bar 4: a5 g5 ~ ~ as5 ~ d5 ~",
+              "o17": "counter phrase, four bars; bar 1: as5 ~ ~ ds5 ~ c5 ~ ~; bar 2: ds6 ~ ~ c6 ~ g5 ~ ~; bar 3: d6 ~ ~ as5 ~ d6 ~ ~; bar 4: f5 ~ ~ as5 ~ d5 ~ ~",
+              "o18": "counter phrase, four bars; bar 1: as5 ~ f5 ~ c5 d5 ~ c5; bar 2: c6 ~ as5 ~ g5 as5 ~ ds6; bar 3: as5 ~ c6 ~ d6 ds6 ~ f6; bar 4: f5 ~ g5 ~ as5 ds6 ~ d5",
+              "o19": "counter phrase, four bars; bar 1: c5 ~ c5 ~ g5 ~ a5 ~; bar 2: c6 ~ d6 ~ f6 ~ c6 ~; bar 3: f6 ~ a6 ~ f6 ~ d6 ~; bar 4: ds6 ~ d6 ~ a5 ~ d5 ~",
+              "o20": "counter phrase, four bars; bar 1: ds5 ~ ~ c5 g5 ~ ~ a5; bar 2: a5 ~ ~ ds6 g6 ~ ~ ds6; bar 3: f6 ~ ~ a6 d6 ~ ~ c6; bar 4: d6 ~ ~ d6 g5 ~ ~ d5",
+              "o21": "counter phrase, four bars; bar 1: c5 ~ ds5 ~ ~ ds5 ~ a5; bar 2: as5 ~ d6 ~ ~ f6 ~ d6; bar 3: d6 ~ g6 ~ ~ ds6 ~ d6; bar 4: ds6 ~ as5 ~ ~ a5 ~ d5",
+              "o22": "counter phrase, four bars; bar 1: c5 d5 ~ ~ g5 ~ as5 ~; bar 2: c6 d6 ~ ~ f6 ~ c6 ~; bar 3: d6 a6 ~ ~ f6 ~ c6 ~; bar 4: f6 as5 ~ ~ as5 ~ d5 ~",
+              "o23": "counter phrase, four bars; bar 1: c5 ~ ~ c5 ~ g5 ~ ~; bar 2: c6 ~ ~ c6 ~ g6 ~ ~; bar 3: f6 ~ ~ g6 ~ ds6 ~ ~; bar 4: d6 ~ ~ d6 ~ d5 ~ ~",
+              "o24": "counter phrase, four bars; bar 1: c5 ~ ds5 ~ ds5 as5 ~ f5; bar 2: a5 ~ c6 ~ f6 c6 ~ a5; bar 3: d6 ~ a6 ~ d6 d6 ~ as5; bar 4: f6 ~ as5 ~ a5 as5 ~ d5",
+              "o25": "counter phrase, four bars; bar 1: ds5 ~ g5 ~ c6 ~ g5 ~; bar 2: ds6 ~ g6 ~ g6 ~ ds6 ~; bar 3: as6 ~ a6 ~ d6 ~ c6 ~; bar 4: ds6 ~ c6 ~ as5 ~ d5 ~",
+              "o26": "counter phrase, four bars; bar 1: ds5 ~ ~ as5 as5 ~ ~ as5; bar 2: ds6 ~ ~ f6 g6 ~ ~ d6; bar 3: a6 ~ ~ f6 d6 ~ ~ as5; bar 4: f6 ~ ~ as5 g5 ~ ~ d5",
+              "o27": "counter phrase, four bars; bar 1: ds5 ~ g5 ~ ~ c6 ~ a5; bar 2: f6 ~ f6 ~ ~ g6 ~ c6; bar 3: a6 ~ f6 ~ ~ d6 ~ d6; bar 4: ds6 ~ d6 ~ ~ a5 ~ d5",
+              "o28": "counter phrase, four bars; bar 1: g5 g5 ~ ~ c6 ~ as5 ~; bar 2: f6 g6 ~ ~ g6 ~ c6 ~; bar 3: as6 f6 ~ ~ ds6 ~ d6 ~; bar 4: ds6 d6 ~ ~ as5 ~ d5 ~",
+              "o29": "counter phrase, four bars; bar 1: ds5 ~ ~ as5 ~ c6 ~ ~; bar 2: g6 ~ ~ g6 ~ g6 ~ ~; bar 3: as6 ~ ~ f6 ~ f6 ~ ~; bar 4: ds6 ~ ~ c6 ~ d5 ~ ~",
+              "o30": "counter phrase, four bars; bar 1: f5 ~ as5 ~ as5 as5 ~ g5; bar 2: f6 ~ f6 ~ ds6 ds6 ~ a5; bar 3: g6 ~ a6 ~ ds6 as5 ~ ds6; bar 4: ds6 ~ d6 ~ as5 as5 ~ d5",
+              "o31": "counter phrase, four bars; bar 1: c5 ~ as4 ~ ds5 ~ ds5 ~; bar 2: a5 ~ as5 ~ ds6 ~ g6 ~; bar 3: d6 ~ d6 ~ g6 ~ ds6 ~; bar 4: d6 ~ ds6 ~ d6 ~ d5 ~",
+              "o32": "counter phrase, four bars; bar 1: d5 ~ ~ d5 d5 ~ ~ f5; bar 2: g5 ~ ~ a5 ds6 ~ ~ g6; bar 3: d6 ~ ~ d6 a6 ~ ~ f6; bar 4: as5 ~ ~ d6 c6 ~ ~ d5",
+              "o33": "counter phrase, four bars; bar 1: c5 ~ d5 ~ ~ ds5 ~ f5; bar 2: as5 ~ as5 ~ ~ c6 ~ g6; bar 3: c6 ~ ds6 ~ ~ f6 ~ d6; bar 4: c6 ~ d6 ~ ~ c6 ~ d5",
+              "o34": "counter phrase, four bars; bar 1: d5 c5 ~ ~ d5 ~ f5 ~; bar 2: a5 c6 ~ ~ c6 ~ ds6 ~; bar 3: d6 d6 ~ ~ a6 ~ f6 ~; bar 4: as5 ds6 ~ ~ as5 ~ d5 ~",
+              "o35": "counter phrase, four bars; bar 1: d5 ~ ~ d5 ~ d5 ~ ~; bar 2: g5 ~ ~ a5 ~ ds6 ~ ~; bar 3: d6 ~ ~ d6 ~ a6 ~ ~; bar 4: d6 ~ ~ ds6 ~ d5 ~ ~",
+              "o36": "counter phrase, four bars; bar 1: c5 ~ c5 ~ d5 ds5 ~ as5; bar 2: g5 ~ as5 ~ c6 ds6 ~ c6; bar 3: d6 ~ d6 ~ f6 d6 ~ d6; bar 4: c6 ~ f6 ~ as5 as5 ~ d5",
+              "o37": "counter phrase, four bars; bar 1: a5 ~ a5 ~ a5 ~ ds5 ~; bar 2: f6 ~ f6 ~ c6 ~ as5 ~; bar 3: a6 ~ ds6 ~ as5 ~ c6 ~; bar 4: d6 ~ a5 ~ a5 ~ d5 ~",
+              "o38": "counter phrase, four bars; bar 1: a5 ~ ~ c6 g5 ~ ~ g5; bar 2: a6 ~ ~ ds6 ds6 ~ ~ c6; bar 3: a6 ~ ~ d6 as5 ~ ~ as5; bar 4: d6 ~ ~ a5 f5 ~ ~ d5",
+              "o39": "counter phrase, four bars; bar 1: a5 ~ as5 ~ ~ as5 ~ f5; bar 2: f6 ~ ds6 ~ ~ d6 ~ c6; bar 3: f6 ~ f6 ~ ~ c6 ~ c6; bar 4: c6 ~ g5 ~ ~ a5 ~ d5",
+              "o40": "counter phrase, four bars; bar 1: a5 a5 ~ ~ a5 ~ g5 ~; bar 2: f6 f6 ~ ~ c6 ~ a5 ~; bar 3: a6 d6 ~ ~ d6 ~ as5 ~; bar 4: as5 g5 ~ ~ g5 ~ d5 ~",
+              "o41": "counter phrase, four bars; bar 1: a5 ~ ~ a5 ~ a5 ~ ~; bar 2: f6 ~ ~ f6 ~ d6 ~ ~; bar 3: g6 ~ ~ f6 ~ c6 ~ ~; bar 4: d6 ~ ~ as5 ~ d5 ~ ~",
+              "o42": "counter phrase, four bars; bar 1: as5 ~ a5 ~ g5 ds5 ~ c5; bar 2: g6 ~ ds6 ~ c6 as5 ~ g5; bar 3: a6 ~ f6 ~ d6 as5 ~ f6; bar 4: d6 ~ g5 ~ f5 f6 ~ d5",
+              "o43": "counter phrase, four bars; bar 1: d5 ~ ds5 ~ ds5 ~ a5 ~; bar 2: ds6 ~ as5 ~ ds6 ~ ds6 ~; bar 3: c6 ~ g6 ~ f6 ~ g6 ~; bar 4: f6 ~ as5 ~ f6 ~ d5 ~",
+              "o44": "counter phrase, four bars; bar 1: d5 ~ ~ g5 ds5 ~ ~ as5; bar 2: c6 ~ ~ a5 ds6 ~ ~ d6; bar 3: c6 ~ ~ f6 ds6 ~ ~ g6; bar 4: d6 ~ ~ d6 f6 ~ ~ d5",
+              "o45": "counter phrase, four bars; bar 1: ds5 ~ g5 ~ ~ d5 ~ a5; bar 2: d6 ~ c6 ~ ~ ds6 ~ d6; bar 3: d6 ~ g6 ~ ~ ds6 ~ a6; bar 4: d6 ~ c6 ~ ~ f6 ~ d5",
+              "o46": "counter phrase, four bars; bar 1: c5 f5 ~ ~ ds5 ~ g5 ~; bar 2: ds6 c6 ~ ~ f6 ~ c6 ~; bar 3: c6 f6 ~ ~ ds6 ~ g6 ~; bar 4: f6 as5 ~ ~ g6 ~ d5 ~",
+              "o47": "counter phrase, four bars; bar 1: c5 ~ ~ g5 ~ d5 ~ ~; bar 2: c6 ~ ~ a5 ~ g6 ~ ~; bar 3: as5 ~ ~ f6 ~ ds6 ~ ~; bar 4: f6 ~ ~ c6 ~ d5 ~ ~",
+              "o48": "counter phrase, four bars; bar 1: c5 ~ ds5 ~ ds5 a5 ~ ds5; bar 2: ds6 ~ c6 ~ ds6 c6 ~ f6; bar 3: c6 ~ a6 ~ ds6 as6 ~ as5; bar 4: d6 ~ as5 ~ f6 as5 ~ d5"
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o23",
+          "confidence": 0.04,
+          "probabilities": {
+            "o26": 0.01,
+            "o35": 0.02,
+            "o06": 0.02,
+            "o30": 0.02,
+            "o24": 0.01,
+            "o43": 0.01,
+            "o29": 0.03,
+            "o10": 0.01,
+            "o21": 0.04,
+            "o38": 0.01,
+            "o04": 0.02,
+            "o41": 0.02,
+            "o09": 0.02,
+            "o28": 0.01,
+            "o34": 0.01,
+            "o25": 0.02,
+            "o33": 0.04,
+            "o18": 0.02,
+            "o03": 0.05,
+            "o40": 0.01,
+            "o32": 0.01,
+            "o15": 0.01,
+            "o20": 0.01,
+            "o01": 0.02,
+            "o37": 0.01,
+            "o08": 0.01,
+            "o12": 0.02,
+            "o46": 0.02,
+            "o22": 0.02,
+            "o44": 0.01,
+            "o14": 0.02,
+            "o31": 0.02,
+            "o16": 0.02,
+            "o36": 0.01,
+            "o13": 0.02,
+            "o45": 0.02,
+            "o39": 0.02,
+            "o19": 0.03,
+            "o07": 0.03,
+            "o02": 0.02,
+            "o05": 0.05,
+            "o48": 0.01,
+            "o42": 0.01,
+            "o27": 0.01,
+            "o23": 0.06,
+            "o11": 0.03,
+            "o47": 0.05,
+            "o17": 0.03
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 4997,
+            "output_tokens": 451
+          }
+        },
+        {
+          "choice": "o23",
+          "confidence": 0.03,
+          "probabilities": {
+            "o01": 0.02,
+            "o02": 0.02,
+            "o03": 0.05,
+            "o04": 0.02,
+            "o05": 0.05,
+            "o06": 0.02,
+            "o07": 0.03,
+            "o08": 0.01,
+            "o09": 0.02,
+            "o10": 0.01,
+            "o11": 0.03,
+            "o12": 0.02,
+            "o13": 0.02,
+            "o14": 0.02,
+            "o15": 0.02,
+            "o16": 0.02,
+            "o17": 0.03,
+            "o18": 0.02,
+            "o19": 0.02,
+            "o20": 0.01,
+            "o21": 0.04,
+            "o22": 0.02,
+            "o23": 0.060000000000000005,
+            "o24": 0.01,
+            "o25": 0.02,
+            "o26": 0.02,
+            "o27": 0.01,
+            "o28": 0.01,
+            "o29": 0.02,
+            "o30": 0.02,
+            "o31": 0.02,
+            "o32": 0.01,
+            "o33": 0.04,
+            "o34": 0.01,
+            "o35": 0.02,
+            "o36": 0.01,
+            "o37": 0.01,
+            "o38": 0.02,
+            "o39": 0.03,
+            "o40": 0.01,
+            "o41": 0.02,
+            "o42": 0.01,
+            "o43": 0.01,
+            "o44": 0.01,
+            "o45": 0.02,
+            "o46": 0.01,
+            "o47": 0.04,
+            "o48": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 4997,
+            "output_tokens": 451
+          }
+        }
+      ],
+      "jevTopChoice": "o23",
+      "selected": "o11",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.2541016873437911,
+      "selectedProbability": 0.029999999999999978
+    },
+    {
+      "stage": "instruments",
+      "requestHash": "33e4a9a517cdb6b0f6120ebf1357cc0293d7e60ca9389173d46d87bf3e771783",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "lead": [
+            "ds4 ~ ds4 ~ ~ f4 ~ a4",
+            "c5 ~ d5 ~ ~ f5 ~ c5",
+            "ds5 ~ a5 ~ ~ ds5 ~ as4",
+            "ds5 ~ d5 ~ ~ as4 ~ d4"
+          ],
+          "variation": [
+            "f4 ~ a4 ~ a4 a4 ~ ds4",
+            "f5 ~ f5 ~ g5 c5 ~ as4",
+            "g5 ~ g5 ~ ds5 as4 ~ d5",
+            "d5 ~ d5 ~ a4 c5 ~ d4"
+          ],
+          "counter": [
+            "d5 ~ ~ as5 ~ f5 ~ ~",
+            "f6 ~ ~ c6 ~ g6 ~ ~",
+            "d6 ~ ~ as6 ~ a6 ~ ~",
+            "g6 ~ ~ ds6 ~ d5 ~ ~"
+          ]
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose a timbral palette that gives the chosen phrases character.",
+            "criteria": {
+              "o01": "Lead: sine; pad: sine; drums: RolandTR808.",
+              "o02": "Lead: sine; pad: sine; drums: RolandTR909.",
+              "o03": "Lead: sine; pad: triangle; drums: RolandTR808.",
+              "o04": "Lead: sine; pad: triangle; drums: RolandTR909.",
+              "o05": "Lead: sine; pad: sawtooth; drums: RolandTR808.",
+              "o06": "Lead: sine; pad: sawtooth; drums: RolandTR909.",
+              "o07": "Lead: sine; pad: square; drums: RolandTR808.",
+              "o08": "Lead: sine; pad: square; drums: RolandTR909.",
+              "o09": "Lead: triangle; pad: sine; drums: RolandTR808.",
+              "o10": "Lead: triangle; pad: sine; drums: RolandTR909.",
+              "o11": "Lead: triangle; pad: triangle; drums: RolandTR808.",
+              "o12": "Lead: triangle; pad: triangle; drums: RolandTR909.",
+              "o13": "Lead: triangle; pad: sawtooth; drums: RolandTR808.",
+              "o14": "Lead: triangle; pad: sawtooth; drums: RolandTR909.",
+              "o15": "Lead: triangle; pad: square; drums: RolandTR808.",
+              "o16": "Lead: triangle; pad: square; drums: RolandTR909.",
+              "o17": "Lead: sawtooth; pad: sine; drums: RolandTR808.",
+              "o18": "Lead: sawtooth; pad: sine; drums: RolandTR909.",
+              "o19": "Lead: sawtooth; pad: triangle; drums: RolandTR808.",
+              "o20": "Lead: sawtooth; pad: triangle; drums: RolandTR909.",
+              "o21": "Lead: sawtooth; pad: sawtooth; drums: RolandTR808.",
+              "o22": "Lead: sawtooth; pad: sawtooth; drums: RolandTR909.",
+              "o23": "Lead: sawtooth; pad: square; drums: RolandTR808.",
+              "o24": "Lead: sawtooth; pad: square; drums: RolandTR909.",
+              "o25": "Lead: square; pad: sine; drums: RolandTR808.",
+              "o26": "Lead: square; pad: sine; drums: RolandTR909.",
+              "o27": "Lead: square; pad: triangle; drums: RolandTR808.",
+              "o28": "Lead: square; pad: triangle; drums: RolandTR909.",
+              "o29": "Lead: square; pad: sawtooth; drums: RolandTR808.",
+              "o30": "Lead: square; pad: sawtooth; drums: RolandTR909.",
+              "o31": "Lead: square; pad: square; drums: RolandTR808.",
+              "o32": "Lead: square; pad: square; drums: RolandTR909."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o14",
+          "confidence": 0.02,
+          "probabilities": {
+            "o17": 0.05,
+            "o01": 0.04,
+            "o13": 0.04,
+            "o16": 0.02,
+            "o03": 0.04,
+            "o28": 0.02,
+            "o14": 0.05,
+            "o18": 0.04,
+            "o10": 0.02,
+            "o06": 0.04,
+            "o19": 0.05,
+            "o02": 0.03,
+            "o09": 0.03,
+            "o11": 0.02,
+            "o31": 0.03,
+            "o22": 0.05,
+            "o23": 0.02,
+            "o30": 0.04,
+            "o24": 0.03,
+            "o20": 0.03,
+            "o08": 0.01,
+            "o12": 0.01,
+            "o26": 0.02,
+            "o05": 0.05,
+            "o32": 0.03,
+            "o15": 0.01,
+            "o27": 0.02,
+            "o07": 0.02,
+            "o29": 0.05,
+            "o25": 0.03,
+            "o04": 0.01,
+            "o21": 0.05
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1920,
+            "output_tokens": 307
+          }
+        },
+        {
+          "choice": "o29",
+          "confidence": 0.02,
+          "probabilities": {
+            "o15": 0.01,
+            "o29": 0.060000000000000005,
+            "o28": 0.02,
+            "o09": 0.03,
+            "o01": 0.04,
+            "o07": 0.02,
+            "o31": 0.03,
+            "o32": 0.03,
+            "o04": 0.02,
+            "o16": 0.02,
+            "o22": 0.04,
+            "o30": 0.060000000000000005,
+            "o25": 0.02,
+            "o02": 0.02,
+            "o06": 0.04,
+            "o10": 0.01,
+            "o24": 0.04,
+            "o26": 0.03,
+            "o12": 0.01,
+            "o20": 0.03,
+            "o21": 0.04,
+            "o08": 0.01,
+            "o23": 0.03,
+            "o17": 0.04,
+            "o13": 0.04,
+            "o03": 0.04,
+            "o18": 0.04,
+            "o14": 0.05,
+            "o19": 0.04,
+            "o11": 0.02,
+            "o05": 0.05,
+            "o27": 0.02
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1920,
+            "output_tokens": 307
+          }
+        }
+      ],
+      "jevTopChoice": "o14",
+      "selected": "o03",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.09178772405721247,
+      "selectedProbability": 0.03999999999999998
+    },
+    {
+      "stage": "effects",
+      "requestHash": "56cb9c7691210d1835e899d3510e55608f82c4a2233b69481b6936ec773897f3",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "instruments": {
+            "lead": "sine",
+            "pad": "triangle",
+            "bank": "RolandTR808"
+          },
+          "lead": [
+            "ds4 ~ ds4 ~ ~ f4 ~ a4",
+            "c5 ~ d5 ~ ~ f5 ~ c5",
+            "ds5 ~ a5 ~ ~ ds5 ~ as4",
+            "ds5 ~ d5 ~ ~ as4 ~ d4"
+          ]
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose a lead brightness and space treatment for this track.",
+            "criteria": {
+              "o01": "Lead brightness 1800 Hz; echo amount 0; room amount 0.2.",
+              "o02": "Lead brightness 1800 Hz; echo amount 0; room amount 0.55.",
+              "o03": "Lead brightness 1800 Hz; echo amount 0.2; room amount 0.2.",
+              "o04": "Lead brightness 1800 Hz; echo amount 0.2; room amount 0.55.",
+              "o05": "Lead brightness 1800 Hz; echo amount 0.4; room amount 0.2.",
+              "o06": "Lead brightness 1800 Hz; echo amount 0.4; room amount 0.55.",
+              "o07": "Lead brightness 2600 Hz; echo amount 0; room amount 0.2.",
+              "o08": "Lead brightness 2600 Hz; echo amount 0; room amount 0.55.",
+              "o09": "Lead brightness 2600 Hz; echo amount 0.2; room amount 0.2.",
+              "o10": "Lead brightness 2600 Hz; echo amount 0.2; room amount 0.55.",
+              "o11": "Lead brightness 2600 Hz; echo amount 0.4; room amount 0.2.",
+              "o12": "Lead brightness 2600 Hz; echo amount 0.4; room amount 0.55.",
+              "o13": "Lead brightness 3600 Hz; echo amount 0; room amount 0.2.",
+              "o14": "Lead brightness 3600 Hz; echo amount 0; room amount 0.55.",
+              "o15": "Lead brightness 3600 Hz; echo amount 0.2; room amount 0.2.",
+              "o16": "Lead brightness 3600 Hz; echo amount 0.2; room amount 0.55.",
+              "o17": "Lead brightness 3600 Hz; echo amount 0.4; room amount 0.2.",
+              "o18": "Lead brightness 3600 Hz; echo amount 0.4; room amount 0.55.",
+              "o19": "Lead brightness 5000 Hz; echo amount 0; room amount 0.2.",
+              "o20": "Lead brightness 5000 Hz; echo amount 0; room amount 0.55.",
+              "o21": "Lead brightness 5000 Hz; echo amount 0.2; room amount 0.2.",
+              "o22": "Lead brightness 5000 Hz; echo amount 0.2; room amount 0.55.",
+              "o23": "Lead brightness 5000 Hz; echo amount 0.4; room amount 0.2.",
+              "o24": "Lead brightness 5000 Hz; echo amount 0.4; room amount 0.55."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o06",
+          "confidence": 0.12,
+          "probabilities": {
+            "o05": 0.09,
+            "o06": 0.17,
+            "o22": 0.01,
+            "o02": 0.02,
+            "o07": 0.01,
+            "o11": 0.03,
+            "o24": 0.03,
+            "o16": 0.04,
+            "o18": 0.05,
+            "o23": 0.01,
+            "o10": 0.09,
+            "o14": 0,
+            "o17": 0.01,
+            "o03": 0.11,
+            "o09": 0.05,
+            "o15": 0.01,
+            "o20": 0,
+            "o04": 0.1,
+            "o19": 0.01,
+            "o21": 0.01,
+            "o01": 0.03,
+            "o13": 0.01,
+            "o08": 0.01,
+            "o12": 0.1
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1665,
+            "output_tokens": 235
+          }
+        },
+        {
+          "choice": "o06",
+          "confidence": 0.13,
+          "probabilities": {
+            "o06": 0.16,
+            "o05": 0.09,
+            "o22": 0.01,
+            "o02": 0.02,
+            "o07": 0.01,
+            "o16": 0.04,
+            "o23": 0.01,
+            "o11": 0.03,
+            "o18": 0.05,
+            "o10": 0.1,
+            "o24": 0.02,
+            "o14": 0,
+            "o17": 0.01,
+            "o03": 0.12,
+            "o09": 0.05,
+            "o15": 0.01,
+            "o04": 0.1,
+            "o20": 0,
+            "o19": 0.01,
+            "o21": 0,
+            "o01": 0.03,
+            "o13": 0.01,
+            "o08": 0.01,
+            "o12": 0.11
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1665,
+            "output_tokens": 235
+          }
+        }
+      ],
+      "jevTopChoice": "o06",
+      "selected": "o12",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.766402731416747,
+      "selectedProbability": 0.09999999999999998
+    },
+    {
+      "stage": "section: intro",
+      "requestHash": "a3342e6156c9246287a1699c826e548572864960a8f7d53b7cb7dbec2fef4119",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "previousSections": [
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            }
+          ],
+          "section": "intro",
+          "bars": 8
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose instrumentation for the intro section (8 bars). Give the complete track a satisfying arc.",
+            "criteria": {
+              "o01": "pad; no drums.",
+              "o02": "pad; soft pulse.",
+              "o03": "bass and pad; no drums.",
+              "o04": "bass and pad; soft pulse.",
+              "o05": "arpeggio and pad; no drums.",
+              "o06": "arpeggio and pad; soft pulse.",
+              "o07": "lead and bass; no drums.",
+              "o08": "lead and bass; soft pulse.",
+              "o09": "alternate hook and arpeggio; no drums.",
+              "o10": "alternate hook and arpeggio; soft pulse.",
+              "o11": "lead and counterpoint; no drums.",
+              "o12": "lead and counterpoint; soft pulse.",
+              "o13": "alternate hook and counterpoint; no drums.",
+              "o14": "alternate hook and counterpoint; soft pulse.",
+              "o15": "full melodic conversation; no drums.",
+              "o16": "full melodic conversation; soft pulse.",
+              "o17": "lead, arpeggio, and bass; no drums.",
+              "o18": "lead, arpeggio, and bass; soft pulse.",
+              "o19": "alternate hook and bass; no drums.",
+              "o20": "alternate hook and bass; soft pulse.",
+              "o21": "both hooks and bass; no drums.",
+              "o22": "both hooks and bass; soft pulse.",
+              "o23": "counterpoint, arpeggio, and bass; no drums.",
+              "o24": "counterpoint, arpeggio, and bass; soft pulse.",
+              "o25": "lead, counterpoint, arpeggio, and bass; no drums.",
+              "o26": "lead, counterpoint, arpeggio, and bass; soft pulse.",
+              "o27": "alternate hook, counterpoint, arpeggio, and bass; no drums.",
+              "o28": "alternate hook, counterpoint, arpeggio, and bass; soft pulse.",
+              "o29": "both hooks, arpeggio, and bass; no drums.",
+              "o30": "both hooks, arpeggio, and bass; soft pulse.",
+              "o31": "both hooks, counterpoint, and bass; no drums.",
+              "o32": "both hooks, counterpoint, and bass; soft pulse."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o06",
+          "confidence": 0.44,
+          "probabilities": {
+            "o07": 0,
+            "o02": 0,
+            "o31": 0,
+            "o10": 0,
+            "o04": 0,
+            "o24": 0.01,
+            "o03": 0.01,
+            "o29": 0,
+            "o26": 0.01,
+            "o22": 0,
+            "o12": 0,
+            "o32": 0,
+            "o15": 0,
+            "o05": 0.34,
+            "o06": 0.46,
+            "o17": 0.05,
+            "o18": 0.09,
+            "o19": 0,
+            "o11": 0,
+            "o25": 0.01,
+            "o08": 0,
+            "o14": 0,
+            "o28": 0,
+            "o23": 0.02,
+            "o09": 0,
+            "o13": 0,
+            "o16": 0,
+            "o30": 0,
+            "o21": 0,
+            "o01": 0,
+            "o20": 0,
+            "o27": 0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1524,
+            "output_tokens": 307
+          }
+        },
+        {
+          "choice": "o06",
+          "confidence": 0.47,
+          "probabilities": {
+            "o20": 0,
+            "o22": 0,
+            "o08": 0,
+            "o15": 0,
+            "o12": 0,
+            "o14": 0,
+            "o32": 0,
+            "o01": 0,
+            "o24": 0.01,
+            "o25": 0.01,
+            "o26": 0.01,
+            "o17": 0.03,
+            "o28": 0,
+            "o11": 0,
+            "o09": 0,
+            "o10": 0,
+            "o07": 0,
+            "o16": 0,
+            "o29": 0,
+            "o05": 0.35000000000000003,
+            "o31": 0,
+            "o04": 0,
+            "o23": 0.02,
+            "o27": 0,
+            "o18": 0.05,
+            "o21": 0,
+            "o19": 0,
+            "o03": 0.01,
+            "o02": 0.01,
+            "o13": 0,
+            "o06": 0.5,
+            "o30": 0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1524,
+            "output_tokens": 307
+          }
+        }
+      ],
+      "jevTopChoice": "o06",
+      "selected": "o06",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.7127125065308064,
+      "selectedProbability": 0.46
+    },
+    {
+      "stage": "section: foundation",
+      "requestHash": "f6e64ea2831a4853aebdef56214b2c90b88a97ac2a7dd4c1ca29ed394a064a6a",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "previousSections": [
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            }
+          ],
+          "section": "foundation",
+          "bars": 16
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose instrumentation for the foundation section (16 bars). Give the complete track a satisfying arc.",
+            "criteria": {
+              "o01": "bass and pad; soft pulse.",
+              "o02": "bass and pad; full drums.",
+              "o03": "bass and pad; drums with brighter hats.",
+              "o04": "lead and bass; soft pulse.",
+              "o05": "lead and bass; full drums.",
+              "o06": "lead and bass; drums with brighter hats.",
+              "o07": "alternate hook and counterpoint; soft pulse.",
+              "o08": "alternate hook and counterpoint; full drums.",
+              "o09": "alternate hook and counterpoint; drums with brighter hats.",
+              "o10": "full melodic conversation; soft pulse.",
+              "o11": "full melodic conversation; full drums.",
+              "o12": "full melodic conversation; drums with brighter hats.",
+              "o13": "lead, arpeggio, and bass; soft pulse.",
+              "o14": "lead, arpeggio, and bass; full drums.",
+              "o15": "lead, arpeggio, and bass; drums with brighter hats.",
+              "o16": "alternate hook and bass; soft pulse.",
+              "o17": "alternate hook and bass; full drums.",
+              "o18": "alternate hook and bass; drums with brighter hats.",
+              "o19": "both hooks and bass; soft pulse.",
+              "o20": "both hooks and bass; full drums.",
+              "o21": "both hooks and bass; drums with brighter hats.",
+              "o22": "counterpoint, arpeggio, and bass; soft pulse.",
+              "o23": "counterpoint, arpeggio, and bass; full drums.",
+              "o24": "counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o25": "lead, counterpoint, arpeggio, and bass; soft pulse.",
+              "o26": "lead, counterpoint, arpeggio, and bass; full drums.",
+              "o27": "lead, counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o28": "alternate hook, counterpoint, arpeggio, and bass; soft pulse.",
+              "o29": "alternate hook, counterpoint, arpeggio, and bass; full drums.",
+              "o30": "alternate hook, counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o31": "both hooks, arpeggio, and bass; soft pulse.",
+              "o32": "both hooks, arpeggio, and bass; full drums.",
+              "o33": "both hooks, arpeggio, and bass; drums with brighter hats.",
+              "o34": "both hooks, counterpoint, and bass; soft pulse.",
+              "o35": "both hooks, counterpoint, and bass; full drums.",
+              "o36": "both hooks, counterpoint, and bass; drums with brighter hats."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o13",
+          "confidence": 0.41,
+          "probabilities": {
+            "o03": 0.01,
+            "o20": 0,
+            "o28": 0,
+            "o12": 0,
+            "o04": 0.02,
+            "o21": 0,
+            "o33": 0,
+            "o32": 0,
+            "o17": 0,
+            "o07": 0,
+            "o23": 0,
+            "o11": 0,
+            "o29": 0,
+            "o30": 0,
+            "o02": 0,
+            "o31": 0.01,
+            "o15": 0.01,
+            "o14": 0.04,
+            "o27": 0,
+            "o36": 0,
+            "o35": 0,
+            "o19": 0,
+            "o22": 0.11,
+            "o24": 0,
+            "o26": 0.01,
+            "o10": 0,
+            "o09": 0,
+            "o16": 0,
+            "o25": 0.04,
+            "o18": 0,
+            "o08": 0,
+            "o13": 0.44,
+            "o34": 0,
+            "o05": 0,
+            "o01": 0.31,
+            "o06": 0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1721,
+            "output_tokens": 343
+          }
+        },
+        {
+          "choice": "o13",
+          "confidence": 0.39,
+          "probabilities": {
+            "o01": 0.32,
+            "o02": 0,
+            "o03": 0.01,
+            "o04": 0.02,
+            "o05": 0,
+            "o06": 0,
+            "o07": 0,
+            "o08": 0,
+            "o09": 0,
+            "o10": 0,
+            "o11": 0,
+            "o12": 0,
+            "o13": 0.41000000000000003,
+            "o14": 0.02,
+            "o15": 0.01,
+            "o16": 0,
+            "o17": 0,
+            "o18": 0,
+            "o19": 0,
+            "o20": 0,
+            "o21": 0,
+            "o22": 0.17,
+            "o23": 0,
+            "o24": 0,
+            "o25": 0.02,
+            "o26": 0.01,
+            "o27": 0,
+            "o28": 0,
+            "o29": 0,
+            "o30": 0,
+            "o31": 0.01,
+            "o32": 0,
+            "o33": 0,
+            "o34": 0,
+            "o35": 0,
+            "o36": 0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1721,
+            "output_tokens": 343
+          }
+        }
+      ],
+      "jevTopChoice": "o13",
+      "selected": "o13",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.5000678242649883,
+      "selectedProbability": 0.44
+    },
+    {
+      "stage": "section: first hook",
+      "requestHash": "11132eb673d139573cf24e2d30a6e59fe9759f3c7fc921e91418ca0f23d8830c",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "previousSections": [
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            }
+          ],
+          "section": "first hook",
+          "bars": 16
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose instrumentation for the first hook section (16 bars). Give the complete track a satisfying arc.",
+            "criteria": {
+              "o01": "lead and bass; soft pulse.",
+              "o02": "lead and bass; full drums.",
+              "o03": "lead and bass; drums with brighter hats.",
+              "o04": "lead and counterpoint; soft pulse.",
+              "o05": "lead and counterpoint; full drums.",
+              "o06": "lead and counterpoint; drums with brighter hats.",
+              "o07": "full melodic conversation; soft pulse.",
+              "o08": "full melodic conversation; full drums.",
+              "o09": "full melodic conversation; drums with brighter hats.",
+              "o10": "lead, arpeggio, and bass; soft pulse.",
+              "o11": "lead, arpeggio, and bass; full drums.",
+              "o12": "lead, arpeggio, and bass; drums with brighter hats.",
+              "o13": "both hooks and bass; soft pulse.",
+              "o14": "both hooks and bass; full drums.",
+              "o15": "both hooks and bass; drums with brighter hats.",
+              "o16": "lead, counterpoint, arpeggio, and bass; soft pulse.",
+              "o17": "lead, counterpoint, arpeggio, and bass; full drums.",
+              "o18": "lead, counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o19": "both hooks, arpeggio, and bass; soft pulse.",
+              "o20": "both hooks, arpeggio, and bass; full drums.",
+              "o21": "both hooks, arpeggio, and bass; drums with brighter hats.",
+              "o22": "both hooks, counterpoint, and bass; soft pulse.",
+              "o23": "both hooks, counterpoint, and bass; full drums.",
+              "o24": "both hooks, counterpoint, and bass; drums with brighter hats."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o10",
+          "confidence": 0.68,
+          "probabilities": {
+            "o02": 0,
+            "o05": 0,
+            "o12": 0.07,
+            "o23": 0,
+            "o09": 0,
+            "o04": 0,
+            "o15": 0,
+            "o17": 0.02,
+            "o10": 0.71,
+            "o01": 0.01,
+            "o14": 0,
+            "o06": 0,
+            "o19": 0.01,
+            "o24": 0,
+            "o22": 0,
+            "o20": 0.01,
+            "o18": 0.02,
+            "o07": 0,
+            "o21": 0.01,
+            "o13": 0.01,
+            "o03": 0.01,
+            "o08": 0,
+            "o11": 0.09,
+            "o16": 0.03
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1468,
+            "output_tokens": 235
+          }
+        },
+        {
+          "choice": "o10",
+          "confidence": 0.67,
+          "probabilities": {
+            "o14": 0,
+            "o18": 0.03,
+            "o10": 0.7,
+            "o13": 0.01,
+            "o21": 0.01,
+            "o09": 0,
+            "o01": 0.01,
+            "o04": 0,
+            "o15": 0,
+            "o16": 0.03,
+            "o19": 0.01,
+            "o03": 0.01,
+            "o08": 0,
+            "o24": 0,
+            "o07": 0.01,
+            "o22": 0,
+            "o23": 0,
+            "o11": 0.07,
+            "o02": 0,
+            "o06": 0,
+            "o20": 0.01,
+            "o05": 0,
+            "o12": 0.09,
+            "o17": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1468,
+            "output_tokens": 235
+          }
+        }
+      ],
+      "jevTopChoice": "o10",
+      "selected": "o10",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.09834075625985861,
+      "selectedProbability": 0.71
+    },
+    {
+      "stage": "section: break",
+      "requestHash": "5a8a44161b9854068b30f7ddf683f64519f06a846dbe2907d6b9e9b0b76715ba",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "previousSections": [
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            }
+          ],
+          "section": "break",
+          "bars": 16
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose instrumentation for the break section (16 bars). Give the complete track a satisfying arc.",
+            "criteria": {
+              "o01": "pad; no drums.",
+              "o02": "pad; soft pulse.",
+              "o03": "bass and pad; no drums.",
+              "o04": "bass and pad; soft pulse.",
+              "o05": "arpeggio and pad; no drums.",
+              "o06": "arpeggio and pad; soft pulse.",
+              "o07": "lead and bass; no drums.",
+              "o08": "lead and bass; soft pulse.",
+              "o09": "alternate hook and arpeggio; no drums.",
+              "o10": "alternate hook and arpeggio; soft pulse.",
+              "o11": "lead and counterpoint; no drums.",
+              "o12": "lead and counterpoint; soft pulse.",
+              "o13": "alternate hook and counterpoint; no drums.",
+              "o14": "alternate hook and counterpoint; soft pulse.",
+              "o15": "full melodic conversation; no drums.",
+              "o16": "full melodic conversation; soft pulse.",
+              "o17": "lead, arpeggio, and bass; no drums.",
+              "o18": "lead, arpeggio, and bass; soft pulse.",
+              "o19": "alternate hook and bass; no drums.",
+              "o20": "alternate hook and bass; soft pulse.",
+              "o21": "both hooks and bass; no drums.",
+              "o22": "both hooks and bass; soft pulse.",
+              "o23": "counterpoint, arpeggio, and bass; no drums.",
+              "o24": "counterpoint, arpeggio, and bass; soft pulse.",
+              "o25": "lead, counterpoint, arpeggio, and bass; no drums.",
+              "o26": "lead, counterpoint, arpeggio, and bass; soft pulse.",
+              "o27": "alternate hook, counterpoint, arpeggio, and bass; no drums.",
+              "o28": "alternate hook, counterpoint, arpeggio, and bass; soft pulse.",
+              "o29": "both hooks, arpeggio, and bass; no drums.",
+              "o30": "both hooks, arpeggio, and bass; soft pulse.",
+              "o31": "both hooks, counterpoint, and bass; no drums.",
+              "o32": "both hooks, counterpoint, and bass; soft pulse."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o05",
+          "confidence": 0.11,
+          "probabilities": {
+            "o06": 0.1,
+            "o14": 0.01,
+            "o20": 0,
+            "o05": 0.15000000000000002,
+            "o08": 0.01,
+            "o07": 0.03,
+            "o15": 0.04,
+            "o10": 0.01,
+            "o04": 0.02,
+            "o03": 0.05,
+            "o26": 0.01,
+            "o22": 0,
+            "o17": 0.06,
+            "o31": 0.01,
+            "o21": 0.03,
+            "o25": 0.05,
+            "o29": 0.02,
+            "o30": 0.01,
+            "o27": 0.01,
+            "o18": 0.02,
+            "o28": 0.01,
+            "o11": 0.04,
+            "o02": 0.05,
+            "o12": 0,
+            "o13": 0.02,
+            "o01": 0.12,
+            "o23": 0.04,
+            "o24": 0.01,
+            "o16": 0.01,
+            "o19": 0.01,
+            "o32": 0,
+            "o09": 0.05
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1691,
+            "output_tokens": 307
+          }
+        },
+        {
+          "choice": "o05",
+          "confidence": 0.13,
+          "probabilities": {
+            "o23": 0.04,
+            "o30": 0.01,
+            "o31": 0.01,
+            "o14": 0.01,
+            "o25": 0.03,
+            "o22": 0.01,
+            "o12": 0,
+            "o29": 0.02,
+            "o26": 0.01,
+            "o32": 0,
+            "o04": 0.02,
+            "o15": 0.03,
+            "o18": 0.02,
+            "o09": 0.05,
+            "o02": 0.06,
+            "o21": 0.03,
+            "o24": 0.01,
+            "o19": 0.02,
+            "o20": 0.01,
+            "o10": 0.01,
+            "o03": 0.06,
+            "o28": 0.01,
+            "o08": 0.01,
+            "o05": 0.13999999999999999,
+            "o27": 0.01,
+            "o16": 0.01,
+            "o01": 0.11,
+            "o13": 0.02,
+            "o07": 0.03,
+            "o17": 0.06,
+            "o06": 0.1,
+            "o11": 0.04
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1691,
+            "output_tokens": 307
+          }
+        }
+      ],
+      "jevTopChoice": "o05",
+      "selected": "o06",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.4838615609332919,
+      "selectedProbability": 0.09999999999999996
+    },
+    {
+      "stage": "section: rebuild",
+      "requestHash": "40fe44b740b0385f9652c78e3a726eb3cf51a0fe62152ca70a729b8464966e09",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "previousSections": [
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            }
+          ],
+          "section": "rebuild",
+          "bars": 16
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose instrumentation for the rebuild section (16 bars). Give the complete track a satisfying arc.",
+            "criteria": {
+              "o01": "bass and pad; soft pulse.",
+              "o02": "bass and pad; full drums.",
+              "o03": "bass and pad; drums with brighter hats.",
+              "o04": "lead and bass; soft pulse.",
+              "o05": "lead and bass; full drums.",
+              "o06": "lead and bass; drums with brighter hats.",
+              "o07": "alternate hook and counterpoint; soft pulse.",
+              "o08": "alternate hook and counterpoint; full drums.",
+              "o09": "alternate hook and counterpoint; drums with brighter hats.",
+              "o10": "full melodic conversation; soft pulse.",
+              "o11": "full melodic conversation; full drums.",
+              "o12": "full melodic conversation; drums with brighter hats.",
+              "o13": "lead, arpeggio, and bass; soft pulse.",
+              "o14": "lead, arpeggio, and bass; full drums.",
+              "o15": "lead, arpeggio, and bass; drums with brighter hats.",
+              "o16": "alternate hook and bass; soft pulse.",
+              "o17": "alternate hook and bass; full drums.",
+              "o18": "alternate hook and bass; drums with brighter hats.",
+              "o19": "both hooks and bass; soft pulse.",
+              "o20": "both hooks and bass; full drums.",
+              "o21": "both hooks and bass; drums with brighter hats.",
+              "o22": "counterpoint, arpeggio, and bass; soft pulse.",
+              "o23": "counterpoint, arpeggio, and bass; full drums.",
+              "o24": "counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o25": "lead, counterpoint, arpeggio, and bass; soft pulse.",
+              "o26": "lead, counterpoint, arpeggio, and bass; full drums.",
+              "o27": "lead, counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o28": "alternate hook, counterpoint, arpeggio, and bass; soft pulse.",
+              "o29": "alternate hook, counterpoint, arpeggio, and bass; full drums.",
+              "o30": "alternate hook, counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o31": "both hooks, arpeggio, and bass; soft pulse.",
+              "o32": "both hooks, arpeggio, and bass; full drums.",
+              "o33": "both hooks, arpeggio, and bass; drums with brighter hats.",
+              "o34": "both hooks, counterpoint, and bass; soft pulse.",
+              "o35": "both hooks, counterpoint, and bass; full drums.",
+              "o36": "both hooks, counterpoint, and bass; drums with brighter hats."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o01",
+          "confidence": 0.15,
+          "probabilities": {
+            "o06": 0.01,
+            "o14": 0.1,
+            "o20": 0.01,
+            "o05": 0.01,
+            "o04": 0.01,
+            "o15": 0.05,
+            "o08": 0.01,
+            "o10": 0.01,
+            "o34": 0,
+            "o03": 0.03,
+            "o07": 0.02,
+            "o26": 0.07,
+            "o22": 0.01,
+            "o17": 0,
+            "o33": 0.02,
+            "o31": 0.02,
+            "o35": 0.01,
+            "o21": 0.01,
+            "o25": 0.02,
+            "o29": 0.05,
+            "o30": 0.02,
+            "o27": 0.05,
+            "o18": 0,
+            "o28": 0.01,
+            "o11": 0.02,
+            "o36": 0.01,
+            "o02": 0.02,
+            "o12": 0.01,
+            "o13": 0.1,
+            "o01": 0.18000000000000002,
+            "o23": 0.03,
+            "o24": 0.02,
+            "o16": 0.01,
+            "o19": 0.01,
+            "o32": 0.02,
+            "o09": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1888,
+            "output_tokens": 343
+          }
+        },
+        {
+          "choice": "o01",
+          "confidence": 0.16,
+          "probabilities": {
+            "o03": 0.03,
+            "o20": 0.01,
+            "o28": 0.01,
+            "o12": 0.01,
+            "o04": 0.01,
+            "o21": 0.01,
+            "o33": 0.02,
+            "o32": 0.01,
+            "o17": 0,
+            "o07": 0.01,
+            "o11": 0.02,
+            "o23": 0.03,
+            "o02": 0.02,
+            "o30": 0.02,
+            "o29": 0.05,
+            "o31": 0.02,
+            "o15": 0.05,
+            "o27": 0.05,
+            "o36": 0.01,
+            "o14": 0.1,
+            "o35": 0.01,
+            "o19": 0.01,
+            "o26": 0.08,
+            "o24": 0.02,
+            "o22": 0.01,
+            "o10": 0.01,
+            "o09": 0.01,
+            "o16": 0.01,
+            "o25": 0.02,
+            "o18": 0,
+            "o08": 0.01,
+            "o13": 0.11,
+            "o34": 0,
+            "o05": 0.01,
+            "o01": 0.19,
+            "o06": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1888,
+            "output_tokens": 343
+          }
+        }
+      ],
+      "jevTopChoice": "o01",
+      "selected": "o29",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.861113614635542,
+      "selectedProbability": 0.05050505050505048
+    },
+    {
+      "stage": "section: climax",
+      "requestHash": "0e30155c8db1ae991041ef6dddeb458a4940f79e1e4e657d91dedbd4b6f318c0",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "previousSections": [
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            }
+          ],
+          "section": "climax",
+          "bars": 16
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose instrumentation for the climax section (16 bars). Give the complete track a satisfying arc.",
+            "criteria": {
+              "o01": "alternate hook and arpeggio; full drums.",
+              "o02": "alternate hook and arpeggio; drums with brighter hats.",
+              "o03": "alternate hook and counterpoint; full drums.",
+              "o04": "alternate hook and counterpoint; drums with brighter hats.",
+              "o05": "full melodic conversation; full drums.",
+              "o06": "full melodic conversation; drums with brighter hats.",
+              "o07": "alternate hook and bass; full drums.",
+              "o08": "alternate hook and bass; drums with brighter hats.",
+              "o09": "both hooks and bass; full drums.",
+              "o10": "both hooks and bass; drums with brighter hats.",
+              "o11": "alternate hook, counterpoint, arpeggio, and bass; full drums.",
+              "o12": "alternate hook, counterpoint, arpeggio, and bass; drums with brighter hats.",
+              "o13": "both hooks, arpeggio, and bass; full drums.",
+              "o14": "both hooks, arpeggio, and bass; drums with brighter hats.",
+              "o15": "both hooks, counterpoint, and bass; full drums.",
+              "o16": "both hooks, counterpoint, and bass; drums with brighter hats."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o11",
+          "confidence": 0.57,
+          "probabilities": {
+            "o10": 0,
+            "o13": 0.01,
+            "o09": 0.01,
+            "o01": 0.01,
+            "o04": 0.02,
+            "o15": 0.01,
+            "o16": 0.01,
+            "o08": 0,
+            "o03": 0.06,
+            "o11": 0.59,
+            "o07": 0,
+            "o02": 0,
+            "o06": 0.04,
+            "o14": 0.01,
+            "o05": 0.08,
+            "o12": 0.15
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1451,
+            "output_tokens": 163
+          }
+        },
+        {
+          "choice": "o11",
+          "confidence": 0.55,
+          "probabilities": {
+            "o01": 0.01,
+            "o10": 0,
+            "o02": 0,
+            "o13": 0.01,
+            "o07": 0,
+            "o03": 0.06,
+            "o16": 0.01,
+            "o06": 0.03,
+            "o14": 0.01,
+            "o11": 0.58,
+            "o04": 0.01,
+            "o09": 0,
+            "o15": 0.01,
+            "o12": 0.21,
+            "o05": 0.06,
+            "o08": 0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1451,
+            "output_tokens": 163
+          }
+        }
+      ],
+      "jevTopChoice": "o11",
+      "selected": "o11",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.3474375009536743,
+      "selectedProbability": 0.59
+    },
+    {
+      "stage": "section: outro",
+      "requestHash": "2e348cc8d3e5db59d22b659199807606ed6d6c899640bda73545c87e7c618734",
+      "request": {
+        "model": "jev-latest",
+        "state": {
+          "songPrompt": "# Song prompt\n\nCreate one original track for this Strudel music library. Go hard and make the best piece of music you can. The genre, mood, tempo, instrumentation, structure, and every other creative choice are yours.\n\nSave the finished, playable Strudel song as a new JavaScript file in `songs/`. Its complete composition must last at least **three minutes** before it ends or starts over from the beginning.\n\nAdd your track to the table in `README.md`, linking to its file and crediting the model that created it. If you are unsure of your exact model name, write `To confirm` in the model column and ask the maintainer to supply it.\n\nYou may use Strudel's built in sounds or samples if you wish. If you choose to find external sample packs, use [Awesome Strudel](https://github.com/terryds/awesome-strudel) as your only external resource for finding them. Use its sample pack listings for that purpose only; do not use the songs or examples there as creative references.\n\nDo not inspect, copy, adapt, or use any existing songs in this repository as references, including those in `archive/pre-standardized/`. Create this track from your own ideas.\n\nPlay and refine your work if you can. Deliver the song file when it is the strongest version you can make.\n",
+          "task": "Choose material for one original Strudel track.",
+          "creativeBrief": {
+            "rhythmicImpulse": "slowly accumulating",
+            "harmonicColor": "tense and unresolved",
+            "foreground": "a hypnotic arpeggio",
+            "dramaticArc": "several waves of energy"
+          },
+          "style": {
+            "name": "hypnotic dance",
+            "detail": "repeating motifs with gradual changes in intensity",
+            "bpm": 96
+          },
+          "mode": "phrygian",
+          "progression": [
+            0,
+            5,
+            6,
+            4
+          ],
+          "previousSections": [
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "lead, arpeggio, and bass",
+              "layers": [
+                "lead",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "alternate hook, counterpoint, arpeggio, and bass",
+              "layers": [
+                "variation",
+                "counter",
+                "arp",
+                "bass",
+                "pad"
+              ],
+              "drumName": "full drums",
+              "drum": "full"
+            },
+            {
+              "name": "arpeggio and pad",
+              "layers": [
+                "arp",
+                "pad"
+              ],
+              "drumName": "soft pulse",
+              "drum": "pulse"
+            }
+          ],
+          "section": "outro",
+          "bars": 16
+        },
+        "questions": {
+          "selection": {
+            "type": "choice",
+            "instructions": "Choose instrumentation for the outro section (16 bars). Give the complete track a satisfying arc.",
+            "criteria": {
+              "o01": "pad; no drums.",
+              "o02": "pad; soft pulse.",
+              "o03": "bass and pad; no drums.",
+              "o04": "bass and pad; soft pulse.",
+              "o05": "arpeggio and pad; no drums.",
+              "o06": "arpeggio and pad; soft pulse.",
+              "o07": "lead and bass; no drums.",
+              "o08": "lead and bass; soft pulse.",
+              "o09": "alternate hook and arpeggio; no drums.",
+              "o10": "alternate hook and arpeggio; soft pulse.",
+              "o11": "lead and counterpoint; no drums.",
+              "o12": "lead and counterpoint; soft pulse.",
+              "o13": "alternate hook and counterpoint; no drums.",
+              "o14": "alternate hook and counterpoint; soft pulse.",
+              "o15": "full melodic conversation; no drums.",
+              "o16": "full melodic conversation; soft pulse.",
+              "o17": "lead, arpeggio, and bass; no drums.",
+              "o18": "lead, arpeggio, and bass; soft pulse.",
+              "o19": "alternate hook and bass; no drums.",
+              "o20": "alternate hook and bass; soft pulse.",
+              "o21": "both hooks and bass; no drums.",
+              "o22": "both hooks and bass; soft pulse.",
+              "o23": "counterpoint, arpeggio, and bass; no drums.",
+              "o24": "counterpoint, arpeggio, and bass; soft pulse.",
+              "o25": "lead, counterpoint, arpeggio, and bass; no drums.",
+              "o26": "lead, counterpoint, arpeggio, and bass; soft pulse.",
+              "o27": "alternate hook, counterpoint, arpeggio, and bass; no drums.",
+              "o28": "alternate hook, counterpoint, arpeggio, and bass; soft pulse.",
+              "o29": "both hooks, arpeggio, and bass; no drums.",
+              "o30": "both hooks, arpeggio, and bass; soft pulse.",
+              "o31": "both hooks, counterpoint, and bass; no drums.",
+              "o32": "both hooks, counterpoint, and bass; soft pulse."
+            }
+          }
+        }
+      },
+      "probes": [
+        {
+          "choice": "o27",
+          "confidence": 0.23,
+          "probabilities": {
+            "o26": 0.01,
+            "o13": 0.03,
+            "o03": 0.01,
+            "o25": 0.04,
+            "o11": 0.01,
+            "o29": 0.01,
+            "o10": 0.01,
+            "o27": 0.26,
+            "o02": 0.04,
+            "o19": 0,
+            "o31": 0.01,
+            "o14": 0.01,
+            "o04": 0.01,
+            "o17": 0.01,
+            "o01": 0.03,
+            "o07": 0,
+            "o20": 0,
+            "o18": 0.01,
+            "o05": 0.14,
+            "o06": 0.2,
+            "o12": 0,
+            "o16": 0.02,
+            "o23": 0.02,
+            "o08": 0.01,
+            "o21": 0,
+            "o15": 0.02,
+            "o32": 0,
+            "o28": 0.06,
+            "o09": 0.02,
+            "o24": 0.01,
+            "o22": 0,
+            "o30": 0
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1878,
+            "output_tokens": 307
+          }
+        },
+        {
+          "choice": "o27",
+          "confidence": 0.23,
+          "probabilities": {
+            "o24": 0.01,
+            "o29": 0.01,
+            "o23": 0.02,
+            "o13": 0.03,
+            "o32": 0,
+            "o09": 0.02,
+            "o04": 0.01,
+            "o10": 0.01,
+            "o20": 0,
+            "o19": 0,
+            "o27": 0.26,
+            "o11": 0.01,
+            "o15": 0.02,
+            "o02": 0.04,
+            "o21": 0,
+            "o01": 0.03,
+            "o28": 0.07,
+            "o16": 0.02,
+            "o30": 0,
+            "o12": 0,
+            "o31": 0,
+            "o18": 0.01,
+            "o26": 0.01,
+            "o25": 0.05,
+            "o14": 0.01,
+            "o17": 0.01,
+            "o06": 0.18000000000000002,
+            "o07": 0,
+            "o05": 0.16,
+            "o22": 0,
+            "o08": 0,
+            "o03": 0.01
+          },
+          "model": "jev-1.13.0",
+          "usage": {
+            "input_tokens": 1878,
+            "output_tokens": 307
+          }
+        }
+      ],
+      "jevTopChoice": "o27",
+      "selected": "o06",
+      "selectionMethod": "sample",
+      "samplingDraw": 0.34784182626754045,
+      "selectedProbability": 0.19999999999999996
+    }
+  ]
+}

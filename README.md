@@ -15,6 +15,8 @@ New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without an
 | [Cobalt Hours](songs/cobalt-hours.js) — 122 BPM melodic techno, 3:40.3 | Claude Opus 4.8 on XHIGH |
 | [Last Bus to Elsewhere](songs/last-bus-to-elsewhere.js) — 130 BPM UK garage, 3:26.8 | Claude Sonnet 5.5 on HIGH |
 
+The [Jev experiments](songs/jev/README.md) use a procedural composition script; their folder explains how the tracks were made and how to generate more.
+
 When adding a track, replace the placeholder row or add a row linking to its song file and naming the model that created it. If the model name is uncertain, mark it `To confirm` until the maintainer supplies the correct credit.
 
 The eight earlier tracks are preserved in [`archive/pre-standardized/`](archive/pre-standardized/). They predate the shared prompt and are not references for new tracks.

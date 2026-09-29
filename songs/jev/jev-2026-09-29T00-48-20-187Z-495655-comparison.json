@@ -1,0 +1,432 @@
+{
+  "seed": "38d5c005f00068e5",
+  "variation": "both",
+  "runs": 3,
+  "probes": 2,
+  "dryRun": false,
+  "songHashes": [
+    "b4b1cd03e5bd7f5f6eeccca69c9b037de951017298de4838a3d80f32955626fd",
+    "95c6c3636207722817bb7c7740c0d5f996b9e6f189a11d2da4d4ca37d336c5dd",
+    "a27b6e22aa1665f61579d331f63530c0e1c4531e8cfc6e73a50c2f9c4d1f417a"
+  ],
+  "stages": [
+    {
+      "stage": "style",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o14",
+        "o10",
+        "o09"
+      ],
+      "jevTopChoices": [
+        "o13",
+        "o10",
+        "o09"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "mode",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o05",
+        "o03",
+        "o05"
+      ],
+      "jevTopChoices": [
+        "o03",
+        "o03",
+        "o05"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "tonic",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o12",
+        "o03",
+        "o03"
+      ],
+      "jevTopChoices": [
+        "o05",
+        "o03",
+        "o05"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "stage": "harmony",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o06",
+        "o16",
+        "o24"
+      ],
+      "jevTopChoices": [
+        "o20",
+        "o20",
+        "o20"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "drums",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o03",
+        "o28",
+        "o05"
+      ],
+      "jevTopChoices": [
+        "o05",
+        "o06",
+        "o09"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "hats",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o06",
+        "o14",
+        "o10"
+      ],
+      "jevTopChoices": [
+        "o04",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "bass",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o03",
+        "o12",
+        "o23"
+      ],
+      "jevTopChoices": [
+        "o02",
+        "o02",
+        "o01"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "lead",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o05",
+        "o03",
+        "o21"
+      ],
+      "jevTopChoices": [
+        "o05",
+        "o03",
+        "o05"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "variation",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o36",
+        "o06",
+        "o30"
+      ],
+      "jevTopChoices": [
+        "o03",
+        "o03",
+        "o21"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "stage": "counter",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o47",
+        "o38",
+        "o11"
+      ],
+      "jevTopChoices": [
+        "o47",
+        "o03",
+        "o23"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "instruments",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o07",
+        "o03",
+        "o03"
+      ],
+      "jevTopChoices": [
+        "o09",
+        "o01",
+        "o14"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "stage": "effects",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o10",
+        "o12",
+        "o12"
+      ],
+      "jevTopChoices": [
+        "o06",
+        "o06",
+        "o06"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: intro",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o04",
+        "o06",
+        "o06"
+      ],
+      "jevTopChoices": [
+        "o03",
+        "o06",
+        "o06"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: foundation",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o01",
+        "o13",
+        "o13"
+      ],
+      "jevTopChoices": [
+        "o01",
+        "o13",
+        "o13"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: first hook",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o10",
+        "o16",
+        "o10"
+      ],
+      "jevTopChoices": [
+        "o01",
+        "o10",
+        "o10"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: break",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o25",
+        "o06",
+        "o06"
+      ],
+      "jevTopChoices": [
+        "o03",
+        "o25",
+        "o05"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: rebuild",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o24",
+        "o26",
+        "o29"
+      ],
+      "jevTopChoices": [
+        "o01",
+        "o01",
+        "o01"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: climax",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o16",
+        "o11",
+        "o11"
+      ],
+      "jevTopChoices": [
+        "o12",
+        "o05",
+        "o11"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "stage": "section: outro",
+      "identicalInputsAcrossRuns": false,
+      "selections": [
+        "o23",
+        "o04",
+        "o06"
+      ],
+      "jevTopChoices": [
+        "o31",
+        "o27",
+        "o27"
+      ],
+      "changedSelection": true,
+      "sameInputDifferentSelection": false,
+      "sameInputDifferentJevChoice": false,
+      "probeDisagreements": [
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}
