@@ -20,6 +20,7 @@ New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without an
 | [Alkaline Cathedral](songs/alkaline-cathedral.js) — 128 BPM acid techno, 4:00.0 | GLM-5.2 on High | |
 | [Counterlight](songs/counterlight.js) — 125 BPM melodic progressive house, 5:41.8 | GLM-5.3 on High | Took literally 2 hours.. |
 | [Undertow](songs/undertow.js) — 100 BPM halftime wave, 3:12.0 | Kimi-K3 on High | |
+| [The Sun Has Teeth](songs/the-sun-has-teeth.js) — 136 BPM heavy melodic electro breaks, 3:45.9 | GPT-6.1-Sol on XHIGH | Entirely synthesized, including drums |
 
 The [Jev experiments](songs/jev/README.md) use a procedural composition script; their folder explains how the tracks were made and how to generate more.
 
