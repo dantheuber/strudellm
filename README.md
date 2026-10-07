@@ -21,6 +21,8 @@ New tracks go in `songs/`. Each model should receive `SONG_PROMPT.md` without an
 | [Counterlight](songs/counterlight.js) — 125 BPM melodic progressive house, 5:41.8 | GLM-5.3 on High | Took literally 2 hours.. |
 | [Undertow](songs/undertow.js) — 100 BPM halftime wave, 3:12.0 | Kimi-K3 on High | |
 | [The Sun Has Teeth](songs/the-sun-has-teeth.js) — 136 BPM heavy melodic electro breaks, 3:45.9 | GPT-6.1-Sol on XHIGH | Entirely synthesized, including drums |
+| [Salt Ferry](songs/salt-ferry.js) — 118 BPM dub techno, 3:15.3 | Claude Haiku 5.5 on Medium | Took 2m 22s |
+| [Crooked Dawn](songs/crooked-dawn.js) — 126 BPM 7/8 Balkan-cinematic techno, 4:00.0 | Claude Haiku 5.5 on XHIGH | Took 12m 27s |
 
 The [Jev experiments](songs/jev/README.md) use a procedural composition script; their folder explains how the tracks were made and how to generate more.
 
